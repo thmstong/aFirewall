@@ -725,14 +725,14 @@
     <string name="check_status">Status überprüfen</string>
     <string name="disable_call_forward_when_busy">Anrufweiterleitung bei besetzt abschalten</string>
     <string name="call_forwarding_desc">Sie können blockierte Anrufer auf eine leere Nummer weiterleiten, um zu verhindern, dass sie auf Ihrem AB landen.</string>
-	<string name="not_customized">"Tut mir Leid, aber ich kann leider nicht mit den entsprechenden Infos aufwarten. Es wäre toll, wenn Sie sie von Ihrem Anbieter erfragen und mir zuschicken könnten, auf dass ich sie in kommende Versionen einbauen kann. Vielen Dank im voraus!"</string>
+    <string name="not_customized">"Tut mir Leid, aber ich kann leider nicht mit den entsprechenden Infos aufwarten. Es wäre toll, wenn Sie sie von Ihrem Anbieter erfragen und mir zuschicken könnten, auf dass ich sie in kommende Versionen einbauen kann. Vielen Dank im voraus!"</string>
     <string name="share_the_info">Info weiterleiten</string>
-	<string name="activate_code">Code zum Aktivieren</string>
-	<string name="deactivate_code">Code zum Abbrechen</string>
-	<string name="check_status_code">Code für die Statusüberprüfung</string>
-	<string name="phone_number">Telefonnummer</string>   
-	<string name="rate_afirewall">Bewerten Sie aFirewall</string>
-	<string name="do_it_in_system_way">Do it through system</string>
+    <string name="activate_code">Code zum Aktivieren</string>
+    <string name="deactivate_code">Code zum Abbrechen</string>
+    <string name="check_status_code">Code für die Statusüberprüfung</string>
+    <string name="phone_number">Telefonnummer</string>   
+    <string name="rate_afirewall">Bewerten Sie aFirewall</string>
+    
  
     
 </resources>
