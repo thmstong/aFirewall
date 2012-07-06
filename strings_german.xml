@@ -732,7 +732,12 @@
     <string name="check_status_code">Code für die Statusüberprüfung</string>
     <string name="phone_number">Telefonnummer</string>   
     <string name="rate_afirewall">Bewerten Sie aFirewall</string>
-    
+    <string name="avoid_voicemail">Sie können blockierte Anrufer auf eine leere Nummer weiterleiten, um zu verhindern, dass sie auf Ihrem AB landen.</string>
+    <string name="mmi_solution">Möglichkeit Nr. 1: Aktivierung per MMI Code. Fragen Sie Ihren Mobilfunkprovider, falls Sie keinen haben.</string>
+    <string name="do_it_in_system_way">Möglichkeit Nr. 2: Aktivierung per Anrufweiterleitung, falls Möglichkeit Nr. 1 bei Ihnen nicht funktioniert.</string>
+    <string name="go_to_system_call_forwarding">Zu den Anrufweiterleitungseinstellungen</string>
+    <string name="tips_for_system_way">Benutzen Sie zur Einrichtung die Anrufweiterleitung. Drücken Sie auf abbrechen, falls Sie Google Voice installiert haben.</string>
+   
  
     
 </resources>
