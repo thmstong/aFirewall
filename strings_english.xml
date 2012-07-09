@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-	<!-- Main -->
-	<!-- carlos: 2010.03.17 -->
-	<string name="update_history">Update history</string>
-
 	<!-- Blocked conversation Activity -->
 	<!-- carlos: 2010.03.17 -->
 	<string name="sms_rejection_record">Blocked message</string>
