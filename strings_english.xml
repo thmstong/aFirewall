@@ -670,4 +670,11 @@
     <string name="go_to_system_call_forwarding">Go to system Call Forwarding settings</string>
     <string name="tips_for_system_way">Please find out Call Forwarding to setup Forward When Busy, tap Cancel at first if google voice is installed</string>
     
+    
+    <!-- 3.8.5 -->
+    <string name="block_call_during_a_call">Block call during a call</string>
+    <string name="block_call_during_a_call_summaryoff">"Don\'t block incoming call during a call because it will hangup ongoing call"</string>
+    <string name="block_call_during_a_call_summaryon">Block unwanted call during a call as it have no impact to ongoing call for my phone</string>
+    
+    
  </resources>
