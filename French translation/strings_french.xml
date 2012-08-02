@@ -591,11 +591,11 @@
     <string name="swipe_between_tabs">"Faites glisser l\'écran vers la droite/gauche"</string>
     <string name="thanks">"Un grand merci aux traducteurs suivants:\n    1) English: Marcin Orlowski\n    2) Español: Osvaldo Letowski\n    3) Deutsch: Alexander Platz-Berg; Christian Schaefer\n    4) Pусский: vinogradov sergey\n    5) Français: Vincent; Dorian VERGE</string>
     <string name="intro_one_title">Accepte les appels et messages selon les règles</string>
-    <string name="intro_one_content">aFirewall vous permet de configurer plusieurs règles pour faire face à différents scénarios à des heures différentes; bloquer appels importuns et messages</string>
-    <string name="intro_two_title">La liste noire est la liste bloqué par défaut</string>
-    <string name="intro_two_content">Mettez votre numéro non désirée dans la liste noire si vous voulez le bloquer</string>
-    <string name="intro_three_title">"La liste protégé ne sera pas bloqué"</string>
-    <string name="intro_three_content">"aFirewall peut masquer tous les appels et les messages envoyés par des personnes données, donc n'importe qui peu jouer avec votre téléphone et ne pourra le voir"</string>
+    <string name="intro_one_content">aFirewall vous permet de configurer plusieurs règles pour faire face à différents scénarios à des heures différentes, bloquer les appels et messages importuns.</string>
+    <string name="intro_two_title">La liste noire est la liste bloquée par défaut</string>
+    <string name="intro_two_content">Mettez votre numéro non désiré dans la liste noire si vous voulez le bloquer</string>
+    <string name="intro_three_title">"La liste protégée ne sera pas bloqué"</string>
+    <string name="intro_three_content">"aFirewall peut masquer tous les appels et les messages envoyés par des personnes données, donc n'importe qui peut jouer avec votre téléphone et ne pourra le voir"</string>
     <string name="intro_four_title">Sauvegarde du journal vers Gmail</string>
     <string name="intro_four_content">"L\'application BackupToEmail est nécessaire"</string>
     <string name="intro_four_title2">"Masquer l\'icône de l\'application"</string>
