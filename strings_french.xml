@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- Blocked conversation Activity -->
+	<!-- carlos: 2010.03.17 -->
+	<string name="sms_rejection_record">Messages bloqués</string>
+	<string name="call_rejection_record">Appels bloqués</string>
+
+	<!-- Private conversation Activity -->
+	<!-- carlos: 2010.03.17  -->
+	<string name="protected_calls">Appels protégés</string>
+	<string name="protected_sms">Message protégés</string>
+
+	<!-- Submit Comments Activity -->
+	<!-- carlos: 2010.03.17 -->
+	<string name="nil_user_comments">"Aucun texte du message transmis. S'il vous plaît entrez vos commentaires dans le formulaire ci-dessus."</string>
+	<string name="submit_comments_hint">"Vos commentaires nous permettent d'améliorer cette application. Si vous trouvez un bug ou des idées d'amélioration ? S'il vous plaît écrivez nous ou envoyez vos commentaires via ce formulaire. Si vous voulez une réponse, s'il vous plaît fournissez une adresse email valide. Lorsque vous rapportez des bugs (CF), S'il vous plaît envoyez vos logs avec ( Log Collector sur le Market)."</string>
+	<string name="q_and_a">"F.A.Q."</string>
+	<string name="qanda_notes">"aFirewall F.A.Q. (Frequently Asked Question) la page est disponible ici http://androidfirewall.appspot.com/. En cas de questions, merci de lire la F.A.Q. en premier."</string>
+	<string name="visit_website">Visitez la F.A.Q.</string>
+
+	<!-- Recent Calls List Activity -->
+	<string name="recentCalls_deleteAll">"Effacer les appels récents"</string>
+   	<string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%s</xliff:g> minutes <xliff:g id="SECONDS">%s</xliff:g> secondes"</string>
+   	<string name="recentCalls_editNumberBeforeCall">"Modifier le numéro avant l'appel"</string>
+   	<string name="recentCalls_addToContact">"Ajouter aux contacts"</string>
+   	<string name="recentCalls_removeFromRecentList">"Retirer de la liste"</string>
+   	<string name="recentCalls_empty">"Vide"</string>
+   	<string name="toast_call_detail_error">"Détail des erreurs d'appel"</string>
+    <!-- String used to display calls from private numbers in the call log -->
+    <string name="private_num">Numéro privé</string>
+    <!-- String used to display calls from pay phone in the call log -->
+    <string name="payphone">Téléphone public</string>
+    <!-- String used for displaying calls to the voicemail number in the call log -->
+    <string name="voicemail">Répondeur</string>
+    <!-- Title of the confirmation dialog for clearing the call log  -->
+    <string name="clearCallLogConfirmation_title">"Nettoyer le journal d'appel"</string>
+    <!-- Confirmation dialog for clearing the call log  -->
+    <string name="clearCallLogConfirmation">Etes-vous sûr de vouloir effacer le journal des appels?</string>
+        
+	<!-- Call Detail Activity -->
+   	<string name="type_incoming">"Appels entrants"</string>
+   	<string name="type_outgoing">"Appels sortants"</string>
+   	<string name="type_missed">"appels manqués"</string>
+ 	<string name="callBack">"Rappeler"</string>
+       <string name="callAgain">"Appeler à nouveau"</string>
+   	<string name="recentCalls_callNumber">"Appeler <xliff:g id="NAME">%s</xliff:g>"</string>
+   	<string name="menu_viewContact">"Voir contacts"</string>
+   	<string name="unknown">Inconnu</string>
+
+	<!-- Black List Activity -->
+	<!-- carlos: 2010.03.17 -->
+	<string name="label_hint">"Nommez-le si ce n'est pas un contact"</string>
+	<string name="number_label_hint">"Le label est optionnel"</string>
+
+	<!-- SMS -->
+	<!-- carlos: 2010.03.17 -->
+   	<string name="confirm_delete_conversation">"Supprimer la conversation ?"</string>
+   	<string name="confirm_delete_all_conversations">"Supprimer toutes les conversations ?"</string>
+   	<string name="confirm_dialog_title">"Supprimer"</string>
+   	<string name="menu_delete">"Supprimer la conversation"</string>
+   	<string name="menu_view">"Afficher la conversation"</string>
+   	<string name="menu_delete_all">"Supprimer tous les fils de discussions"</string>
+   	<string name="menu_compose_new">"Composer"</string>
+   	<string name="refreshing">"Rafraîchir&#8230;"</string>
+   	<string name="retrieve_conversation">"Récupérer une conversation"</string>
+	<string name="retrieve_conversation_success">" le messages a été récupéré par le système de messagerie avec succès"</string>
+	<string name="retrieve_conversation_failure">"La lecture des SMS bloqués a échoué."</string>
+	<!-- Delete unlocked checkbox title -->
+    <string name="delete">Supprimer</string>
+    <!-- Context menu item on a message recipient for adding them to the user's
+         contacts (used if the recipient is not already in the address book) -->
+    <string name="menu_add_to_contacts">Ajouter aux contacts</string>
+    <string name="no_subject_view">(Aucun sujet)</string>
+	<string name="download">Télécharger</string>
+    <string name="downloading">En téléchargement</string>
+    <!-- Name of the local user when displaying sender of an outgoing message (personal pronoun) -->
+    <string name="messagelist_sender_self">Moi</string>
+    <!-- Formatting for prepending MMS message text with sender's name. -->
+    <string name="name_colon"><b><xliff:g id="name" example="Me">%s</xliff:g></b>": "</string>
+    <!-- This is the dialog title for the "Select link" dialog, shown when the user clicks on a
+    chat in the chat history view if there are links in the chat message. The dialog displays the
+    links if there are any -->
+    <string name="select_link_title">Sélectionnez une action</string>
+    <!-- Formatting for subject displayed inline, prepended to MMS message text -->
+    <string name="inline_subject">"&lt;Sujet: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
+    <!-- Time and date a message was sent -->
+    <string name="sent_on">"Envoyer: <xliff:g id="date">%s</xliff:g>"</string>
+    <!-- Abbreviation for "kilobyte" -->
+    <!-- Hint displayed in message recipient text box when starting a new conversation -->
+    <string name="to_hint">A</string>
+    <!-- Hint displayed in subject edit text box when adding a subject -->
+    <string name="subject_hint">Sujet</string>
+    <!-- Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_compose_text_enter_to_send">Taper pour composer</string>
+    <!-- Button in conversation screen for sending the message currently being composed (imperative verb) -->
+    <string name="send">Envoyer</string>
+    <!-- This is the text of a toast message briefly displayed when a problem occurs
+         while sending. -->
+    <string name="message_queued">"Actuellement impossible d'envoyer votre message. Il sera envoyé lorsque le service sera disponible."</string>
+    <!-- Dialog box message when there's a problem retrieving messages. -->
+    <string name="download_later">"Actuellement impossible à télécharger. S'il vous plaît réessayer plus tard."</string>
+    <!-- While sending a message, if it has invalid recipient, display this message. -->
+    <string name="invalid_destination">Vous avez entré une adresse invalide.</string>
+    <!-- While downloading a message, if that message has expired, display this message. -->
+    <string name="dl_expired_notification">Ce message a expiré et sera supprimé.</string>
+    <!-- Download Manager -->
+    <!-- When an error occurs downloading a new message and a subject isn't available, substitute
+         this default subject. -->
+    <string name="no_subject">(Pas de sujet)</string>
+    <!-- When an error occurs downloading a new message and the sender is unknown, substitute
+         this default text. -->
+    <string name="unknown_sender">Expéditeur inconnu</string>
+    <!-- When an error occurs downloading a new message, display this message.
+         An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+    <string name="dl_failure_notification">Télécharger des messages <xliff:g id="subject">%s</xliff:g> de <xliff:g id="from">%s</xliff:g> a échoué.</string>
+       
+  	<!-- Rules (was Scenes) -->
+	<!-- carlos: 2010.03.17 -->
+	<string name="add_new_rule">Ajouter une nouvelle règle</string>
+	<string name="manual_view">Liste des règles manuelles</string>
+	<string name="regular_view">Liste des règles planifiées</string>
+	<string name="scheduled_rule_description">"aFirewall selectionne la meilleure pour l'appliquer."</string>
+	<string name="scheduled_rule_list">Règles prévues par aFirewall</string>
+	<string name="manual_rule_list">Liste des règles manuelles</string>
+   	<string name="scene_prompt">"Notes: si elle est activée, la règle s'applique à partir du jour de la semaine donnée à l'heure spécifiée. La première règle figurant sur la liste ci-dessous est considérée comme "par défaut" et utilisée si aucune autre règle correspond."</string>
+   	<string name="manual_rule_list_description">Notes: Les règles suivantes ne peuvent être activé manuellement, et une seule peut être activé à la fois. Après la fin de la durée de la règle, les règles planifiées seront appliqué.</string>
+	<string name="label">Label</string>
+	<string name="scene_label_summary">"Donner à cette règle un label qu'il le décrit le mieux (ex: "Travail", "Soirée")."</string>
+	<string name="repeat_week">Semaine</string>
+	<string name="time">Temps</string>
+	<string name="hangup_mode">Mode Raccrocher</string>
+	<string name="max_scenes">12</string>
+	<string name="call">Appels</string>
+	<string name="sms">Messages</string>
+	<string name="block">Bloque</string>
+	<string name="every_day">Tous les jours</string>
+	<string name="day_concat">", "</string>
+	<string name="delete_scene_confirm">Voulez-vous vraiment supprimer cette règle ?</string>
+	<string name="trigger_time">Heure de début</string>
+	<string name="scene_end_time">Heure de fin</string>
+	<string name="default_block_mode_notes">"C'est la règle par défaut d'aFirewall qui définit comment les appels et les messages doivent être traités si aucune autre règle est appliquée. Certain domaine comme la semaine ou les heures ne sont pas configurable pour cette règle."</string>
+	<string name="sms_response_content_preference">Messages de réponse</string>
+	<string name="sms_response_content_hint">"Entrer le message texte à renvoyer à l'appelant une fois son appel bloqué"</string>
+	<string name="sms_response_enable">"L'appelant recevra un SMS lorsque son appel sera bloqué"</string>
+	<string name="sms_response_disable">"L'autoréponse est désactivé"</string>
+	<string name="blocked_call_response_configuration">Autoréponse des appels bloqués</string>
+	<string name="blocked_sms_response_configuration">Autoréponse des messages bloqués</string>
+	<string name="blocked_sms_response_enable">"Un SMS sera envoyé à l'expéditeur lors de son message bloqué."</string>
+	<string name="blocked_sms_response_content_summary">"Entrez le contenu du SMS qui sera envoyé à l'expéditeur quand un SMS est bloqué."</string>
+    <string name="scene_conflict">"Cette règle ne peut pas être activée car elle entre en conflit avec une autre règle "</string>
+	<string name="scene_can_not_enable">Cette règle ne peut pas être activé parce que son temps de déclenchement est le même que son heure de fin.</string>
+
+	<string name="save_scene_data">"Règle sauvé"</string>
+	<!-- string name="time_explaination">"L'heure de fin est antérieure à la règle de son temps de démarrage, ce qui est incorrect.\n\nNote: les règles ne s'étendent pas au fil du temps. Si vous voulez qu'il s'applique du vendredi 22h00 jusqu'au lendemain 08h00 vous devez définir deux règles - une pour le vendredi (de 22h00 jusqu'à 23h59) et une seconde le samedi (à partir de 00:00 h à 08:00)."</string>-->
+	<string name="rule_duration">Durée des règles</string>
+	<string name="warning_for_manual_rule_switching">aFirewall aide à activer une seule règle manuelle à la fois. Maintenant, il y a une autre règle manuelle activée, aFirewall va la désactiver et activer celle-ci automatiquement.</string>
+    <string name="switch_to_manual_rule">Maintenant aFirewall va passer en mode manuel, les règles planifiées sont maintenant désactivées, et elle seront restaurées après la fin de la règle manuelle</string> 
+    <string name="update_activated_manual_rule">"La règle manuelle activée est mise à jour."</string>
+    <string name="hit_for_mid_night">"S'il vous plaît, attention 00 heure est minuit et 12 heures est midi!"</string>
+    
+	<!-- Blocked conversation settings -->
+ 	<string name="sms_firewall_setup">Configuration des blocages SMS</string>
+ 	<string name="sms_block_keywords">Mots-clés de blocage pour SMS</string>
+  	<string name="sms_block_keywords_description">"Bloque les SMS qui contiennent l'un des mots-clés suivants, mots-clés séparé avec '#'. Par ailleurs, les mots-clés d'aFirewall sont insensibles à la casse, et tous les mots clés seront transformés en minuscules."</string>
+ 	<string name="still_not_setup_keywords">Aucun mot-clé défini</string>
+  	<string name="password">Configuration du mot de passe aFirewall</string>
+  	<string name="firewall_password_disabled">Le mot de passe aFirewall a été désactivé.</string>
+  	<string name="firewall_password_enabled">Le mot de passe a été activé, vous devez entrer le mot de passe lorsque vous ouvrez aFirewall.</string>
+  	<string name="enable_password">Activer mot de passe</string>
+  	<string name="disable_password">Désactiver le mot de passe</string>
+	<string name="afirewall_notification">aFirewall bloque les notifications</string>
+	<string name="blocking_record">Le journal de blocage est activé</string>
+	<string name="send_to_following_people">Envoyer aux personnes suivantes</string>
+	<string name="blocking_record_enable_summary">aFirewall va enregistrer les appels et les SMS bloqués pour vous permettre de faire une vérification</string>
+	<string name="blocking_record_disable_summary">"aFirewall n'enregistrera pas le journal de blocage."</string>
+    <string name="afirewall_setup">Activation aFirewall</string>
+    <string name="afirewall_enable_summary">aFirewall est activé.</string>
+    <string name="afirewall_disable_summary">aFirewall est désactivé.</string>
+	<string name="service_enable_notification">"Notifications de la barre d'état"</string>
+	<string name="service_enable_notification_enable">"Une icône s'affiche sur la barre d'état lorsque les services ont été lancés."</string>
+	<string name="service_enable_notification_disable">"Aucune icône sera affichée sur la barre d'état même si les services ont été lancés."</string>
+	<!-- string name="hangup_update_warning">"1. Ask your carrier if call forwarding is free. If it is free or you are willing to pay for it, you can follow these steps to forward blocked caller to busy tone or a non-existing tone instead of voicemail.\n2. It will also forward incoming calls to the non-existing number when you are on the line when incoming call arrive."</string>-->
+	<!--  string name="hangup_update_to_voice">"You can follow these steps to forward incoming call to voicemail again."</string>-->
+	<!--  string name="hangup_tone_update_instruction">"Please click 'Go to set it' -> 'GSM(CDMA) Call settings' -> 'Call forwarding' -> 'Forward when busy' -> Fill in non-exist number such as 620-000-0000 in U.S.A., 020 0000 0000 in U.K."</string>-->
+	<!-- <string name="hangup_tone_update_to_voice_instruction">"Please click 'Go to set it' -> 'GSM(CDMA) Call settings' -> 'Call forwarding' -> 'Forward when busy' -> Clear the number which you filled before."</string>-->
+	<!-- string name="hangup_tone_update_2.0_instruction">"Please click 'Go to set it' -> 'Call forwarding' -> 'Forward when busy' -> Fill in a non-exist number such as 620-000-0000 in U.S.A., 020 0000 0000 in U.K."</string>-->
+	<!--  string name="hangup_tone_update_to_voice_2.0_instruction">"Please click 'Go to set it' -> 'Call forwarding' -> 'Forward when busy' -> Clear the number which you filled before."</string>-->
+	<!-- string name="verizon_instruction">"Verizon subscriber please click this link http://smallbusiness.verizon.com/products/voice/features/call_fwd.aspx to get to know how to setup 'Forward when busy.', otherwise, please consult your phone operator to get to know how to setup 'Forward when busy'. Thanks."</string>-->
+	<string name="blocked_conversation_settings">Paramètres de conversations bloqués</string>
+	<string name="warning">Attention</string>
+	<string name="tips">Conseils</string>
+	<!-- string name="accept_then_hangup_message">"Hangup mode 'Accept and hangup blocked call' answer the call at first, and wait some time, then hangup the call. Its advantage is that we need not to setup Call Forwarding and avoid forwarding call to voicemail. Its disadvantage is that the call will be answered and the InCall Screen will be displayed."</string>-->
+	<string name="input_integer">"L'entrée n'est pas valide, entrer un entier entre 0 ~ 1000"</string>
+	<string name="apply_for_contacts">"Appliquer pour les contacts"</string> <!-- carlos: to be fixed -->
+	<string name="apply_keywords_blocking_for_contacts_summary_on">"Les mots-clés de blocage s'appliqueront pour les contacts."</string>
+	<string name="apply_keywords_blocking_for_contacts_summary_off">"Les mots-clés de blocage ne s'appliqueront pas pour les contacts."</string>
+	<string name="afirewall_password_indication">"aFirewall va vérifier votre mot de passe à chaque fois que vous ouvrez aFirewall si cette option est activé. \nS'il vous plaît, envoyez moi un email quand vous avez oublié votre mot de passe. Merci."</string>
+    <string name="right_password">Vérification du mot de passe !</string>
+    <string name="wrong_password">Désolé, votre mot de passe est invalide !</string>
+	<string name="answer_hold_time">Temps de la déconnexion</string>
+	<string name="answer_hold_time_summary">Modifier cette valeur pour éviter la transmission des appels indésirables à la messagerie vocale</string> 
+	<string name="answer_hold_time_message">"L'appel bloqué ne sera acceptée, que pour 50ms (par défaut), puis déconnecté automatiquement. Si le temps par défaut ne permet pas d'éviter la messagerie vocale, augmenter le. Merci."</string>
+	<string name="fake_password">Faux mot de passe</string>
+	<string name="fake_password_description">"Le faux mot de passe est utilisé pour mieux protéger votre vie privée lorsque quelqu'un d'autre veut ouvrir aFirewall, vous pouvez lui dire le faux mot de passe, et quand le faux mot de passe est entré, aFirewall va ouvrir, mais toutes les données privées ne seront pas affiché."</string>
+	<string name="empty_input">Vous ne spécifiez rien, entrer votre mot de passe pour validation. Merci.</string>
+	<string name="outgoing_call_sms">Configuration des appels et SMS sortants de la liste noire</string>
+	<string name="outgoing_call">Journal des appels sortants</string>
+    <string name="outgoing_call_enabled_summary">Déplacer le journal des appels sortants de la liste noire à aFirewall</string>
+	<string name="outgoing_call_disabled_summary">"Le journal des d'appels sortants de la liste noire demeure dans le journal d'appel système"</string>
+	<string name="outgoing_sms">Journal des SMS sortants</string>
+	<string name="outgoing_sms_summaryon">Déplacer la liste noire des SMS sortants vers aFirewall</string>
+	<string name="outgoing_sms_summaryoff">"La liste noire des SMS sortants demeure dans le système de l'application de messagerie"</string>
+	<string name="file_creation_failure">"Impossible de créer le fichier d'exportation. Assurez-vous que votre carte SD n'est pas pleine"</string>
+
+	<!-- aFirewall widget -->
+	<!-- carlos: 2010.03.17 -->
+    <string name="scheduled_rule_started">Règle planifiée appliqué</string>
+    <string name="manual_rule_started">Règle manuelle appliqué</string>
+	<string name="afirewall_stopped">aFirewall arrêté</string>
+	<string name="summary_for_stopping">Tous les appels et les SMS sont autorisés</string>
+	<string name="default_rule_label">aFirewall règle par défaut</string>
+	<string name="good_night">Bonne nuit</string>
+	<string name="happy_weekends">Bon weekend</string>
+	<string name="manual_sleeping_scene">Sommeil</string>
+	<string name="manual_meeting_scene">Réunion</string>
+    <string name="manual_interview_scene">Entretien</string>
+	
+	<!-- aFirewall Settings -->
+	<string name="safe_login">Ouvrez aFirewall grâce à SimpleDialer</string>
+	<string name="dialing_number">"Numéro d'appel saisie"</string>
+	<string name="afirewall_safe_login_summary">Ouvrez aFirewall en toute sécurité en composant un numéro spécifique par SimpleDialer</string>
+    <string name="afirewall_safe_login_message">"aFirewall vous permet de vous connecter en composant un numéro spécifique dans SimpleDialer, maintenant s'il vous plaît entrer le numéro spécifique. Si vous avez oublié votre numéro, envoyez moi un email. Merci. "</string>
+	<string name="instruction_for_safe_login">Instructions</string>
+    <string name="instruction_for_safe_login_summary">Expliquer comment ce dispositif fonctionne et ce que vous devez faire.</string>
+	
+	<!-- Global variables -->
+	<!-- carlos: 2010.03.17 -->
+	<string name="app_name">aFirewall</string>
+   	<string name="put_into">&quot;Ajouter à &quot;</string>
+    <string name="add_from_call_log">Ajouter au journal des appels</string>
+    <string name="add_from_sms_log">Ajouter au journal des SMS</string>
+	<string name="add_from_contact">Ajouter des contacts</string>
+	<string name="do_not">"Ne plus afficher"</string>
+	<string name="help">Aide</string>
+	<string name="black_and_white_indication">"S'il vous plaît, soyez sûr que le numéro fournit comprend l'indicatif régional le cas échéant"</string>
+	<string name="done">Valider</string>
+	<string name="failed">Annuler</string>
+	
+	
+	<!-- 2.4.0 added -->
+	<string name="select_group">Sélectionnez le groupe</string>
+   	<string name="please_select_number">Aucun numéro a été sélectionné.</string>
+   	<string name="in_progress">"En progression&#8230;"</string>
+   	<string name="default_all_groups">Tous les groupes</string>
+   	<string name="default_account_name">Compte par défaut</string>
+   	
+   	<!-- 2.5.0 added -->
+    <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
+    <string name="menu_done">Valider</string>
+
+    <!-- Menu item to indicate you want to stop editing a contact and NOT save the changes you've made -->
+    <string name="menu_doNotSave">Annuler</string>
+    
+    <!-- Wildcard Prefix toggle button string -->
+    <string name="wildcard_prefix_button">"Ceci est un caractère générique, le nombre plus '*' sera affiché dans la liste"</string>
+    <string name="add_number_and_wildcard">Ajouter un numéro ou un caractère générique</string>
+    <string name="more_functions">Plus&#8230;</string>
+    <string name="block_unknown_private">Appels inconnus et privés</string>
+    <string name="unknown_private_restricted">"Afficher en tant que '-1', '-2' or '-3' dans le journal des appels"</string>
+    <string name="black_number_or_wildcard_hint">"Numéro noir ou caractère générique</string>
+    <string name="protected_number_hint">"Numéro protégé</string>
+    <string name="test_notification">Test de notification</string>
+    <string name="test_notification_summary">Testez votre notification personnalisée</string>
+	<string name="call_notification">"Notification d'appel"</string>
+	<string name="sms_notification">Notification de message</string>
+	<string name="privacy_mode">Mode de confidentialité</string>
+	<string name="call_notification_settings">"Paramètres de notification d'appel"</string>
+	<string name="sms_notification_settings">Paramètres de notification de SMS</string>
+	<string name="single_blocked_message_title_for_privacy">Nouveau message bloqué</string>
+	<string name="single_protected_message_title_for_privacy">Nouveau message protégé</string>
+	<string name="multiple_blocked_messages_title">Nouveau message bloqué</string>
+	<string name="multiple_protected_message_title">Nouveau message protégé</string>
+	<string name="single_blocked_message_content_for_privacy">Un message a été bloqué</string>
+	<string name="single_protected_message_content_for_privacy">Vous avez un message non lu protégé</string>
+	<string name="multiple_blocked_message_content">" messages bloqués non lus"</string>
+	<string name="multiple_protected_message_content">" messages protégés non lus"</string>
+	<string name="single_blocked_call_title_for_privacy">Nouvel appel bloqué</string>
+	<string name="single_protected_call_title_for_privacy">Nouvel appel protégé</string>
+	<string name="multiple_blocked_call_title">Nouveau appel bloqué</string>
+	<string name="multiple_protected_call_title">Nouveau appel protégé</string>
+	<string name="single_blocked_call_content_for_privacy">Un appel a été bloqué</string>
+	<string name="single_protected_call_content_for_privacy">Vous avez un appel protégé manqué</string>
+	<string name="multiple_blocked_call_content">" les appels qui ont été bloqués"</string>
+	<string name="multiple_protected_call_content">" appels protégés manqué"</string>
+	<string name="protected_call_notification_enable_summary">"Une notification sera envoyé si aFirewall vous a protégé d'un appel manqué"</string>
+	<string name="protected_call_notification_disable_summary">Aucune notification sera envoyé même si un appel manqué protégée est reçu.</string>
+	<string name="protected_call_notification_settings_summary">"Personnaliser la notification d'appel protégé"</string>
+	<string name="protected_sms_notification_enable_summary">Une notification sera envoyé si aFirewall a bloqué un SMS</string>
+	<string name="protected_sms_notification_disable_summary">Aucune notification sera envoyée même si un SMS protégé est reçu.</string>
+	<string name="protected_sms_notification_settings_summary">Personnaliser la notification des SMS protégés</string>
+	<string name="protected_call_privacy_mode_summaryon">"Afficher le nom de l'appelant dans la barre d'état"</string>
+	<string name="protected_call_privacy_mode_summaryoff">"Vous avez un appel manqué protégé"</string>
+	<string name="protected_sms_privacy_mode_summaryon">"Afficher le nom de l'appelant et son contenu dans la barre d'état"</string>
+	<string name="protected_sms_privacy_mode_summaryoff">"Vous avez SMS non lu protégé"</string>
+	<string name="blocked_call_notification_enable_summary">"Une notification sera envoyé à la barre d'état si un appel a été bloqué"</string>
+	<string name="blocked_call_notification_disable_summary">"Aucune notification sera envoyé lorsqu'un appel a été bloqué."</string>
+	<string name="blocked_call_notification_settings_summary">"Personnaliser la notification d'appels bloqués"</string>
+	<string name="blocked_sms_notification_enable_summary">"Une notification sera envoyé à la barre d'état si un SMS a été bloqué"</string>
+	<string name="blocked_sms_notification_disable_summary">Aucune notification sera envoyé lorsque SMS a été bloqué</string>
+	<string name="blocked_sms_notification_settings_summary">Personnaliser la notification des SMS bloqués</string>
+	<string name="blocked_call_privacy_mode_summaryon">"Afficher le nom de l'appelant dans la barre d'état"</string>
+	<string name="blocked_call_privacy_mode_summaryoff">"Un appel a été bloqué"</string>
+	<string name="blocked_sms_privacy_mode_summaryon">"Afficher le nom de l'appelant et son contenu dans la barre d'état"</string>
+	<string name="blocked_sms_privacy_mode_summaryoff">"Vous avez un SMS bloqué non lu"</string>
+    <string name="please_input_number">"S'il vous plaît, entrer un numéro."</string>
+   
+	<!-- Private conversation settings -->
+	<string name="protected_conversation_settings">Paramètres de conversation protégé</string>
+    <!-- License checking status messages -->
+    <string name="check_license">Vérifier la licence</string>   
+    <!-- Export and Import -->
+    <string name="export">Exporter</string>
+   	<string name="about">A propos</string>
+   	<string name="import_data">Importer</string>
+   	<string name="export_to_sd">Exporter vers la carte SD</string>
+   	<string name="import_from_sd">Importer depuis la carte SD</string>
+       <string name="select_all">Sélectionner tout</string>
+   	<string name="unselect_all">Désélectionner tout</string>
+   	<string name="the_list_is_empty">Vide</string>
+   	<string name="language">Language</string>
+   	<string name="language_summary">"Sélectionnez la langue de l'application"</string>
+   	<string name="items">objets</string>
+   	<string name="item">objet</string>
+   	<string name="no_record">Vide</string>
+    <string name="protected_call_notification_title_summary">Personnaliser la notification des appels protégés manqués</string>
+    <string name="protected_message_notification_title_summary">Personnaliser la notification des messages entrants protégés non lus</string>
+	<string name="protected_notification_default_title">"Notification protégé d'aFirewall"</string>
+	<string name="protected_call_notification_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les appels manqués protégés.</string>
+	<string name="protected_message_notification_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les messages non lus entrants protégé.</string>
+   	<string name="protected_notification_content">Contenu de la notification</string>
+	<string name="protected_call_notification_content_summary">Personnaliser le contenu de la notification des appels manqués protégés</string>
+	<string name="protected_message_notification_content_summary">Personnaliser le contenu de la notification des SMS entrant non lus protégé</string>
+	<string name="protected_call_notification_content_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les appels manqués protégée.</string>
+	<string name="protected_message_notification_content_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les messages entrants non lus protégée.</string>
+   	
+   	<!-- 2.6.0 -->
+       <string name="check_all">Vérifier tous</string>
+   	<string name="check_none">Effacer tous</string>
+    <!-- Error message for when the contact list is not compeletely loaded.-->
+    <string name="contact_not_loaded">"S'il vous plaît, patientez pendant que le chargement de la liste des contacts."</string>
+   	<string name="import_old_log">Importer des anciens journaux</string>
+   	<string name="import_old_logs_message">"Etes-vous sûr de vouloir déplacer le journal d'appels des numéros protégés et des messages à partir des applications du système vers aFirewall? "</string>
+   	<string name="please_wait">"S'il vous plaît, attendez&#8230;"</string>
+   	
+   	<!-- 2.6.1 -->
+       <string name="test_notification_subject">"Tester la notification de l'objet"</string>
+   	
+   	<!-- 2.6.5 -->
+	<string name="blocked_call_notification_title_summary">Personnaliser le contenu de la notification des appels bloqués</string>
+	<string name="blocked_message_notification_title_summary">Personnaliser le contenu des notification par SMS entrants bloqués non lus</string>
+	<string name="blocked_notification_default_title">aFirewall a bloqué des notifications</string>
+	<string name="blocked_call_notification_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les appels bloqués.</string>
+	<string name="blocked_message_notification_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les messages bloqués non lus entrants.</string>
+  	<string name="blocked_notification_content">Contenu de la notification</string>
+	<string name="blocked_call_notification_content_summary">Personnaliser le contenu de la notification des appels bloqués</string>
+	<string name="blocked_message_notification_content_summary">Personnaliser le contenu de notification des messages entrants bloqués non lus</string>
+	<string name="blocked_call_notification_content_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les appels bloqués.</string>
+	<string name="blocked_message_notification_content_dialog_message">Vous pouvez mettre à jour le texte suivant pour instruire aFirewall de manière à notifier les messages non lus bloqués entrants.</string>
+	
+	<!-- Sound settings screen, setting option name checkbox -->
+    <string name="vibrate_title">Vibreur</string>
+    <!-- Sound settings screen, setting option summary text -->
+    <string name="vibrate_summary">Notifications du vibreur</string>
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <string name="ringtone_title">Sonnerie de notification</string>
+    <!-- Sound settings screen, setting option summary text -->
+    <string name="ringtone_summary">""</string>	
+    
+   	<!-- 2.7.0 -->
+   	<string name="hangup_ring_time">"Temps de sonnerie"</string>
+   	<string name="hangup_ring_time_summary">"S'il vous plaît, régler le temps de sonnerie avant que l'appel soit bloqué."</string>
+   	<string name="hangup_ring_time_desc">"A défaut, il est fixé à 5000 millisecondes, c'est-à-dire, l'appelant entend la sonnerie 5000 millisecondes, après aFirewall raccrochera automatiquement l'appel. Votre téléphone continuera à être silencieux pendant l'appel."</string>
+   	<string name="second">" seconde"</string>
+   	<string name="seconds">" secondes"</string> 
+   	<string name="millisecond">" milliseconde"</string>
+   	<string name="milliseconds">" millisecondes"</string> 
+<!--    	<string name="hangup_mode_settings_desc">"aFirewall supports three kinds of blocking mode, they are "Hangup directly", "Accept and hangup" and "Ring and hangup"; Here is the instruction for "Hangup directly", you can follow this tips to forward blocked call to voice mail and blank number. And you can apply other blocking mode in Rule settings."</string>-->
+	<!-- 2.7.5 -->
+	<string name="buy_advanced_features">Certaines fonctionnalités sont désactivées pour le moment, cliquez ici pour les activer</string>
+    <string name="billing_not_supported_title">"Impossible d'effectuer des achats"</string>
+    <string name="billing_not_supported_message">"Le service de facturation du Play Store n'est pas disponible pour le moment. Vous pouvez continuer à utiliser cette application, mais vous ne serez pas en mesure d'effectuer des achats."</string>
+    
+    <string name="cannot_connect_title">Impossible de se connecter au Play Store</string>
+    <string name="cannot_connect_message">"Cette application ne peut pas se connecter au Play Store. Votre version du Play Store est peut être périmé. Vous pouvez continuer à utiliser cette application, mais vous ne serez pas en mesure d'effectuer des achats."</string> 
+    <string name="help_url" formatted="false">http://play.google.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="learn_more">En savoir plus</string>
+    <string name="restoring_transactions">Restaurer les transactions</string>
+	<string name="already_full_version">Ceci est la version complète payé, toutes fonctionnalités sont activées. Merci pour votre soutien.</string>
+	<!-- 3.0.0 -->
+	<string name="group_list">Liste des groupes</string>     
+	<string name="group_contacts">Contacts</string>
+	<string name="group_non_contacts">Hors contacts</string>
+	<string name="group_black_list">Liste noire</string>
+	<string name="group_white_list">Liste blanche</string>
+	<string name="group_protected_list">Liste protégé</string>
+	<string name="contacts_type">Système</string>
+	<string name="add_group">Ajouter un groupe</string>
+	<string name="group_name">Nom du groupe</string>
+	<string name="defined_by_me">Nommé par moi</string>
+	<string name="delete_group">Supprimer</string>
+    <string name="delete_group_message">Etes-vous sûr de vouloir supprimer ce groupe et ces numéros ?</string>
+	<string name="number_list">Liste de numéros</string>
+	<string name="add_new_number">Ajouter un nouveau numéro</string>
+	<string name="update_number_information">Mettre à jour les informations du numéro</string>
+	<string name="group_blocking_mode">Listes pour bloquer ou accepter</string>
+	<string name="revert">Annuler</string>
+    <string name="blocking_list_setup_desc">Sélectionner listes de blocage.</string>
+	<string name="block_mode">Appel bloquant ou listes acceptées</string>
+	<string name="scene_sms_block_mode">SMS bloquant ou listes acceptées</string>
+	<string name="group_operation">Opération de groupe</string>
+	<string name="can_not_delete">"Désolé, vous ne pouvez pas supprimer ce groupe"</string>
+	<string name="select_action">Mesures à prendre pour suivre les listes vérifiées</string>
+	<string name="action_block">"Bloque"</string>
+	<string name="action_accept">Accepte</string>
+	<string name="accept_all">Accepte tout</string>
+	<string name="block_all">Bloque tout</string>
+	<string name="max_free_version_group_number_reached">Je suis désolé que vous ne puissiez ajouter que trois groupes en version gratuite.</string>
+    <string name="max_group_number_reched">Je suis désolé que vous ne puissiez ajouter que 12 groupes en version gratuite.</string>
+	
+	<!-- 3.0.7 -->
+	<string name="apply_for_contacts_checkbox">Appliquer les caractères génériques pour les contacts, cela sera ignoré si la liste est acceptée.</string>
+    <string name="block_type_prompt">Sélectionner le type de blocage, cela sera ignoré si la liste est acceptée.</string>
+	
+	<!-- 3.0.8 -->
+	<string name="clear_the_list_warning">Etes-vous sûr de vouloir supprimer tous les numéros de la liste?</string>
+	
+	<!-- 3.1.0 -->
+	<string name="debugging">Débogage</string>
+	<string name="afirewall_log">Log pour le débogage</string>
+	<string name="sanity_test_start">Démarrer le test de fonctionnement</string>
+	<string name="sanity_test">Test de fonctionnement</string>
+	<string name="sanity_test_desc">"Le test de fonctionnement est utilisé pour vérifier si aFirewall travaille normalement ou pas. S'il vous plaît entrer votre propre numéro pour envoyer un appel et SMS à vous même. Merci."</string>
+	<string name="test_outgoing_sms">1. Envoyer un SMS</string>
+	<string name="test_block_sms">2. Bloquer les SMS</string>
+	<string name="test_block_call">3. Bloquer les appels</string>
+	<string name="test_not_start">Ne démarre pas</string>
+    <string name="input_my_own_number">"S'il vous plaît entrez votre propre numéro."</string>
+	<string name="sanity_test_ongoing">Le test de fonctionnement est en cours</string>
+	<string name="block_sms_sanity_test_started">"Un SMS vous à été envoyé, il devrait bientôt arriver. Laissez faire une minute."</string>
+	<string name="sms_sanity_test_content">Le SMS est utilisé par aFirewall, à la fois en entrant et sortant il doit être déplacé vers aFirewall.</string>
+	<string name="test_passed">Transmis</string>
+	<string name="test_failed">Echoué</string>
+	<string name="submit_sanity_test_log">Envoyer journal de test</string>
+	<string name="test_log_location">Le journal de test est enregistré dans le fichier suivant.\n /sdcard/aFirewall/Log/SanityTestLog.txt</string>
+	<string name="sanity_test_warning">Le test de fonctionnement enverra un SMS et vous appelera, tous deux peuvent vous être facturé en fonction de votre opérateur. Etes-vous sûr de vouloir continuer le test? </string>
+	
+	
+	<!-- 3.1.6 -->
+    <string name="blocked_conversation">Conversations bloquées</string> <!-- Move from above -->
+	<string name="protected_conversation">Conversations protégées</string><!-- Move from above -->
+	<string name="rules">Règles</string>
+	<string name="settings">Réglages</string><!-- Move from above -->
+	<string name="export_and_import">Exportation et importation</string>
+	<string name="user_comments">Commentaires</string><!-- Move from above -->
+	
+	<string name="block_call_and_message">Messages et appels bloqués</string>
+	<string name="block_call_only">Appels bloqués seulement</string>
+	<string name="block_message_only">Messages bloqués seulement</string>
+	
+	<string name="edit">Editer</string><!-- Move from above -->
+	<string name="remove">Supprimer</string>
+	<string name="returnCall">"Rappeler"</string><!-- Move from above -->
+	<string name="menu_sendTextMessage">"Envoyer un message"</string><!-- Move from above -->
+	<string name="clear_the_list">Nettoyer la liste</string>
+	
+	<string name="white_listed_only">Liste blanche seulement</string>
+	<string name="everyone">Tout le monde</string>	
+
+    <string name="forward_to_voicemail">"Renvoi d'appels bloqués vers la messagerie vocale"</string>
+    <string name="forward_to_blank_number">"Renvoi d'appels bloqués au numéro vierge"</string>
+    <string name="accept_and_hangup">Décrocher et raccrocher</string>
+    <string name="ring_and_hangup">Sonne et raccroche</string>
+    <string name="be_silent">Silencieux</string>
+    <string name="airplane_mode">Mode avion</string>
+    <string name="default_mode">"Mode par défaut"</string>
+    <string name="hangup_directly">"Raccroche directement"</string>
+    
+    <string name="always">Toujours</string>
+    <string name="never">Jamais</string><!-- Move from above -->
+    <string name="only_in_silent">Seulement en mode silencieux</string>
+    <string name="not_in_silent">"Seulement quand n'est pas en mode silencieux"</string>
+    
+    <!-- 3.1.9 -->
+    <string name="auto_cancel">Auto annuler</string>
+    <string name="auto_cancel_summaryon">"La notification peut être annulée quand l'utilisateur clic."</string>
+    <string name="auto_cancel_summaryoff">"La notification peut être annulée après qu'aFirewall est démarré."</string>
+	
+	<!-- 3.1.10 -->
+	<string name="avoid_missed_call_notification">"Évitez la notification d'appel manqué"</string>
+    <string name="avoid_missed_call_notification_summaryon">"Démarrage du système de l'activité récente du journal des appels pour annuler les notifications d'appels manqués, après qu'un appel ai été bloqué."</string>
+	<string name="avoid_missed_call_notification_summaryoff">"Mon téléphone n'a pas ce problème, ou je n'ai aucune inquiétude à ce sujet et il suffit de quitter."</string>
+
+	<!-- 3.1.11 -->
+	<string name="hidden_application_icon">"Masquer l'icône de l'application"</string>
+    <string name="hidden_application_icon_summaryon">"L'icône de l'application aFirewall sera cachée de la liste des applications."</string>
+    <string name="hidden_application_icon_summaryoff">"L'icône de l'application aFirewall sera répertorié dans la liste des applications."</string>
+    <string name="description_digits_edittext">Numéro à composer</string>
+    <string name="simple_dialer">Simple Dialer</string>	
+    <string name="simple_dialer_number">Numéro du SimpleDialer</string>
+    <string name="set_simple_dialer_number_first">"S'il vous plaît définissez le numéro du SimpleDialer en premier."</string>
+    
+    <!-- 3.2.1 -->
+    <!-- 3.2.1 -->
+    <string name="tips_for_import_and_export">"1. Tous les fichiers exportés seront enregistré dans /sdcard/afirewall/backup directory.\n
+                                               2. Tous les fichiers importés doivent également être enregistré dans /sdcard/afirewall/backup directory.\n
+                                               3. S'il vous plaît, référez vous au format de fichier exporté, si vous voulez importer des numéros provenant de l'extérieur."</string>
+    
+    <string name="no_log">Ne pas enregistrer</string>
+    <string name="log_to_system_file">Log to system file</string>
+    <string name="log_to_sdcard_file">Log to SDCARD file</string>
+    <string name="contain_character">"Votre numéro saisi contient des caractères spéciaux, voulez-vous vous assurer qu'il soit correct?"</string>
+    
+    <!-- 3.2.5 -->
+    <string name="spam">Spam</string>
+    <string name="dismiss">Renvoyer</string>
+    <string name="non_contact_notify">" n'est pas dans vos contacts, quelle action voulez-vous faire ?"</string>
+    
+    <!-- 3.2.6 -->
+    <string name="file_found">" trouvés"</string>
+    <string name="no_available_file">"Non disponible "</string>
+    <string name="attach_afirewall_data">"Joindre les données d'aFirewall (liste des groupes, liste des numéros, liste de règles et d'autres paramètres) pour le débogage, si aFirewall n'a pas bloqué d'appels ou de messages ?"</string>
+    <string name="imported_number">" importés"</string>
+    <string name="failed_to_import">Invalid XML file</string>
+    <string name="ask_to_add_to_blacklist">Demandez à ajouter à la liste noire</string>
+    <string name="do_not_ask">Ne pas demander</string>
+    <string name="unknown_number">Action pour les numéros inconnus</string>
+    <string name="new_caller">Action pour les nouveaux appels</string>
+    <string name="new_texter">Action pour les nouveaux messages</string>
+    <string name="tips_for_group_list">
+	  <![CDATA[
+	  	<div style="color:#FFFFFF;">
+	  	<ul>
+	    <li>"A défaut, aFirewall bloque les appels et des messages de la \'liste noire\', ainsi vous avez seulement besoin de mettre le numéro indésirable dans la liste noire si vous voulez le bloquer."</li><br/>
+	    <li>"Maintenez l'élément groupe pour modifier son nom ou le supprimer;"</li>
+	    <li>"Faites glisser l\'écran vers la droite/gauche."</li>
+	    </ul>
+	    </div>
+	  ]]>
+	</string> 
+        
+  <!-- 3.3.0 -->
+  <string name="notification_icon">Icône de notification</string>
+ 
+  <!-- 3.3.7 -->
+  <string name="time_hour">heure</string>
+  <string name="time_hours">heures</string>
+  <string name="time_minute">minute</string>
+  <string name="time_minutes">minutes</string>    
+    
+    <!-- 3.4.0 -->
+	<string name="backup_log_to_gmail">Sauvegarder les logs vers Gmail</string>
+	<string name="backup_log_to_gmail_summaryon">Enverra une notification de sauvegarde du journal correspondant à votre compte Gmail via BackupToEmail.</string>
+    <string name="backup_log_to_gmail_summaryoff">Les logs seront sauvegardés en local.</string>
+    <string name="install_backup_to_email">"Cette version est basé sur l'application BackupToEmail, et elle n\'est pas trouvé sur votre mobile, voulez vous l\installer à partir de Play Store maintenant ?"</string>
+	
+	<!-- 3.4.6 -->
+	<string name="be_silent_and_do_not_move_log">"Silencieux et ne bouge pas les logs"</string>    
+	<string name="block_call_sanity_test_started">"Commence à vérifier le blocage d'appel, attendre le résultat&#8230;"</string>
+
+	
+    <!-- 3.6.0 -->
+    <string name="block_outgoing_call">Bloquer les appels sortants</string>
+    <string name="block_outgoing_call_summaryon">Les appels sortant seront bloqués si son numéro est dans la liste noire</string>
+    <string name="block_outgoing_call_summaryoff">"Ne pas bloquer les appels sortants"</string>
+    <string name="test_block_mms">4. Bloque MMS</string>
+    <string name="mms_sanity_test_subject">aFirewall MMS - test de bon fonctionnement</string>
+    <string name="mms_sanity_test_content">"S\'il vous plaît envoyer ce MMS sortant et entrant à aFirewall pour savoir s\'il est bloqué avec succès."</string>
+    <string name="block_mms_sanity_test_started">"Un MMS vous a été envoyé, il va bientôt revenir. Il faut bien attendre deux minutes."</string>
+    <string name="runtime">En cours</string>
+    <string name="active_rule">Règle active</string>
+    <string name="change_rule">Basculer vers &#8230;</string>
+    <string name="runtime_and_shortcut">Services en cours et raccourcis</string>
+    <string name="afirewall_started">Les services aFirewall sont démarrés.</string>
+   
+    <!-- 3.6.4 -->
+    <string name="labelCFB">"Transf. si ligne occupée"</string>
+   
+    <!-- 3.7.1 -->
+    <string name="blacklist_tips">"Par défaut, aFirewall bloque les appels et les messages de la \'liste noire\', ainsi vous avez seulement besoin de mettre le numéro indésirable dans la liste noire si vous voulez le bloquer."</string>
+    <string name="swipe_between_tabs">"Faites glisser l\'écran vers la droite/gauche"</string>
+    <string name="thanks">"Un grand merci aux traducteurs suivants:\n    1) English: Marcin Orlowski\n    2) Español: Osvaldo Letowski\n    3) Deutsch: Alexander Platz-Berg; Christian Schaefer\n    4) Pусский: vinogradov sergey\n    5) Français: Vincent; Dorian VERGE</string>
+    <string name="intro_one_title">Accepte les appels et messages selon les règles</string>
+    <string name="intro_one_content">aFirewall vous permet de configurer plusieurs règles pour faire face à différents scénarios à des heures différentes; bloquer appels importuns et messages</string>
+    <string name="intro_two_title">La liste noire est la liste bloqué par défaut</string>
+    <string name="intro_two_content">Mettez votre numéro non désirée dans la liste noire si vous voulez le bloquer</string>
+    <string name="intro_three_title">"La liste protégé ne sera pas bloqué"</string>
+    <string name="intro_three_content">"aFirewall peut masquer tous les appels et les messages envoyés par des personnes données, donc n'importe qui peu jouer avec votre téléphone et ne pourra le voir"</string>
+    <string name="intro_four_title">Sauvegarde du journal vers Gmail</string>
+    <string name="intro_four_content">"L\'application BackupToEmail est nécessaire"</string>
+    <string name="intro_four_title2">"Masquer l\'icône de l\'application"</string>
+    <string name="intro_four_content2">"S\'il vous plaît ouvrez aFirewall à travers SimpleDialer ou le Numéroteur"</string>
+    <string name="intro_five_title">Merci pour votre soutien</string>
+    <string name="intro_five_content">"S\'il vous plaît écrivez-moi si vous avez des questions ou des préoccupations concernant aFirewall"</string>
+    <string name="start_afirewall">Démarrer aFirewall</string>		
+    
+    <!-- 3.7.6 -->
+    <string name="pref_title_sms_delivery_reports">"Accusé de réception"</string>
+    <string name="pref_summary_sms_delivery_reports">"Demander un accusé de réception pour chaque message envoyé"</string>
+    <string name="delivery_toast_body">"Message reçu par %s"</string>
+    <string name="undelivered_sms_dialog_body">"Impossible d\'envoyer ce message."</string>
+    <!-- 3.8.0 -->
+    <string name="my_specified_number">Mon numéro spécifié</string>
+    <string name="check_status">Vérifier le statut</string>
+    <string name="disable_call_forward_when_busy">"Désactiver le renvoi d'appel si occupé"</string>
+    <string name="call_forwarding_desc">Vous pouvez transférer les appels bloqués vers un numéro vierge pour éviter la messagerie vocale</string>  
+    <string name="not_customized">"Je suis désolé je ne peux pas vous donner l'information maintenant, il serait appréciable si vous pouvez obtenir l'information auprès de votre opérateur de téléphonie ou sûr son site web et de me faire un retour. Je vais l'insérer dans les prochaines versions aFirewall. Merci d'avance."</string>
+    <string name="share_the_info">"Partagez l'information"</string>
+    <string name="activate_code">Code pour activer</string>
+    <string name="deactivate_code">Code pour annuler</string>
+    <string name="check_status_code">"Code pour vérifier l'état"</string>
+    <string name="phone_number">Numéro de téléphone</string>   
+    <string name="rate_afirewall">Evaluer aFirewall</string>    
+    <string name="avoid_voicemail">Renvoyer les appels bloqués à un numéro vide pour éviter la messagerie</string>
+    <string name="mmi_solution">"Solution 1: Utiliser le code MMI pour l'activer, contactez votre opérateur pour l'obtenir"</string>
+    <string name="do_it_in_system_way">"Solution 2: activez-la via le transfert d'appel si la solution 1 ne fonctionne pas"</string>
+    <string name="go_to_system_call_forwarding">"Aller dans le menu de gestion des transferts d'appel"</string>
+    <string name="tips_for_system_way">"Accédez au Transfert d'Appel pour configurer le Transférer si Occupé, appuyez d'abord sur Annuler si Google Voice est installé"</string>
+
+    <!-- 3.8.5 -->
+    <string name="block_call_during_a_call">Bloquer un appel entrant durant un appel</string>
+    <string name="block_call_during_a_call_summaryoff">"Ne pas bloquer un appel entrant pendant un appel car il raccrochera l\'appel sortant"</string>
+    <string name="block_call_during_a_call_summaryon">"Bloquer un appel ind\ésirable lors d'un appel car il n'aura pas d'impact sur l\'appel en cours pour mon téléphone"</string>
+    <string name="title">"Titre"</string>
+    
+</resources>
