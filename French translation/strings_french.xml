@@ -174,7 +174,7 @@
 	<string name="send_to_following_people">Envoyer aux personnes suivantes</string>
 	<string name="blocking_record_enable_summary">aFirewall va enregistrer les appels et les SMS bloqués pour vous permettre de faire une vérification</string>
 	<string name="blocking_record_disable_summary">"aFirewall n'enregistrera pas le journal de blocage."</string>
-    <string name="afirewall_setup">Activation aFirewall</string>
+    <string name="afirewall_setup">Activé aFirewall</string>
     <string name="afirewall_enable_summary">aFirewall est activé.</string>
     <string name="afirewall_disable_summary">aFirewall est désactivé.</string>
 	<string name="service_enable_notification">"Notifications de la barre d'état"</string>
@@ -202,7 +202,7 @@
 	<string name="answer_hold_time_summary">Modifier cette valeur pour éviter la transmission des appels indésirables à la messagerie vocale</string> 
 	<string name="answer_hold_time_message">"L'appel bloqué ne sera acceptée, que pour 50ms (par défaut), puis déconnecté automatiquement. Si le temps par défaut ne permet pas d'éviter la messagerie vocale, augmenter le. Merci."</string>
 	<string name="fake_password">Faux mot de passe</string>
-	<string name="fake_password_description">"Le faux mot de passe est utilisé pour mieux protéger votre vie privée lorsque quelqu'un d'autre veut ouvrir aFirewall, vous pouvez lui dire le faux mot de passe, et quand le faux mot de passe est entré, aFirewall va ouvrir, mais toutes les données privées ne seront pas affiché."</string>
+	<string name="fake_password_description">"Le faux mot de passe est utilisé pour mieux protéger votre vie privée lorsque quelqu'un d'autre veut ouvrir aFirewall, vous pouvez lui dire le faux mot de passe, et quand le faux mot de passe est entré, aFirewall va s'ouvrir, mais toutes les données privées ne seront pas affiché."</string>
 	<string name="empty_input">Vous ne spécifiez rien, entrer votre mot de passe pour validation. Merci.</string>
 	<string name="outgoing_call_sms">Configuration des appels et SMS sortants de la liste noire</string>
 	<string name="outgoing_call">Journal des appels sortants</string>
@@ -303,10 +303,10 @@
 	<string name="protected_call_privacy_mode_summaryoff">"Vous avez un appel manqué protégé"</string>
 	<string name="protected_sms_privacy_mode_summaryon">"Afficher le nom de l'appelant et son contenu dans la barre d'état"</string>
 	<string name="protected_sms_privacy_mode_summaryoff">"Vous avez SMS non lu protégé"</string>
-	<string name="blocked_call_notification_enable_summary">"Une notification sera envoyé à la barre d'état si un appel a été bloqué"</string>
+	<string name="blocked_call_notification_enable_summary">"Une notification sera envoyé si un appel a été bloqué"</string>
 	<string name="blocked_call_notification_disable_summary">"Aucune notification sera envoyé lorsqu'un appel a été bloqué."</string>
 	<string name="blocked_call_notification_settings_summary">"Personnaliser la notification d'appels bloqués"</string>
-	<string name="blocked_sms_notification_enable_summary">"Une notification sera envoyé à la barre d'état si un SMS a été bloqué"</string>
+	<string name="blocked_sms_notification_enable_summary">"Une notification sera envoyé si un SMS a été bloqué"</string>
 	<string name="blocked_sms_notification_disable_summary">Aucune notification sera envoyé lorsque SMS a été bloqué</string>
 	<string name="blocked_sms_notification_settings_summary">Personnaliser la notification des SMS bloqués</string>
 	<string name="blocked_call_privacy_mode_summaryon">"Afficher le nom de l'appelant dans la barre d'état"</string>
@@ -513,8 +513,8 @@
     <!-- 3.2.1 -->
     <!-- 3.2.1 -->
     <string name="tips_for_import_and_export">"1. Tous les fichiers exportés seront enregistré dans /sdcard/afirewall/backup directory.\n
-                                               2. Tous les fichiers importés doivent également être enregistré dans /sdcard/afirewall/backup directory.\n
-                                               3. S'il vous plaît, référez vous au format de fichier exporté, si vous voulez importer des numéros provenant de l'extérieur."</string>
+    2. Tous les fichiers importés doivent également être enregistré dans /sdcard/afirewall/backup directory.\n
+    3. S'il vous plaît, référez vous au format de fichier exporté, si vous voulez importer des numéros provenant de l'extérieur."</string>
     
     <string name="no_log">Ne pas enregistrer</string>
     <string name="log_to_system_file">Log to system file</string>
@@ -562,7 +562,7 @@
 	<string name="backup_log_to_gmail">Sauvegarder les logs vers Gmail</string>
 	<string name="backup_log_to_gmail_summaryon">Enverra une notification de sauvegarde du journal correspondant à votre compte Gmail via BackupToEmail.</string>
     <string name="backup_log_to_gmail_summaryoff">Les logs seront sauvegardés en local.</string>
-    <string name="install_backup_to_email">"Cette version est basé sur l'application BackupToEmail, et elle n\'est pas trouvé sur votre mobile, voulez vous l\installer à partir de Play Store maintenant ?"</string>
+    <string name="install_backup_to_email">"Cette version est basé sur l'application BackupToEmail, et elle n\'a pas trouvé sur votre mobile, voulez vous l\'installer à partir du Play Store maintenant ?"</string>
 	
 	<!-- 3.4.6 -->
 	<string name="be_silent_and_do_not_move_log">"Silencieux et ne bouge pas les logs"</string>    
@@ -630,7 +630,7 @@
     <!-- 3.8.5 -->
     <string name="block_call_during_a_call">Bloquer un appel entrant durant un appel</string>
     <string name="block_call_during_a_call_summaryoff">"Ne pas bloquer un appel entrant pendant un appel car il raccrochera l\'appel sortant"</string>
-    <string name="block_call_during_a_call_summaryon">"Bloquer un appel ind\ésirable lors d'un appel car il n'aura pas d'impact sur l\'appel en cours pour mon téléphone"</string>
+    <string name="block_call_during_a_call_summaryon">"Bloquer un appel indésirable lors d'un appel car il n'aura pas d'impact sur l\'appel en cours"</string>
     <string name="title">"Titre"</string>
     
 </resources>
