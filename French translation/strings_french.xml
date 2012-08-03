@@ -14,7 +14,7 @@
 	<!-- Submit Comments Activity -->
 	<!-- carlos: 2010.03.17 -->
 	<string name="nil_user_comments">"Aucun texte du message transmis. S'il vous plaît entrez vos commentaires dans le formulaire ci-dessus."</string>
-	<string name="submit_comments_hint">"Vos commentaires nous permettent d'améliorer cette application. Si vous trouvez un bug ou des idées d'amélioration ? S'il vous plaît écrivez nous ou envoyez vos commentaires via ce formulaire. Si vous voulez une réponse, s'il vous plaît fournissez une adresse email valide. Lorsque vous rapportez des bugs (CF), S'il vous plaît envoyez vos logs avec ( Log Collector sur le Market)."</string>
+	<string name="submit_comments_hint">"Vos commentaires nous permettent d'améliorer cette application. Si vous trouvez un bug ou des idées d'amélioration, s'il vous plaît écrivez nous ou envoyez vos commentaires via ce formulaire. Si vous voulez une réponse, s'il vous plaît fournissez une adresse email valide. Lorsque vous rapportez des bugs (CF), S'il vous plaît envoyez vos logs avec ( Log Collector sur le Market)."</string>
 	<string name="q_and_a">"F.A.Q."</string>
 	<string name="qanda_notes">"aFirewall F.A.Q. (Frequently Asked Question) la page est disponible ici http://androidfirewall.appspot.com/. En cas de questions, merci de lire la F.A.Q. en premier."</string>
 	<string name="visit_website">Visitez la F.A.Q.</string>
