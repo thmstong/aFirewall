@@ -587,8 +587,8 @@
     <string name="labelCFB">"Transf. si ligne occupée"</string>
    
     <!-- 3.7.1 -->
-    <string name="blacklist_tips">"Par défaut, aFirewall bloque les appels et les messages de la \'liste noire\', ainsi vous avez seulement besoin de mettre le numéro indésirable dans la liste noire si vous voulez le bloquer."</string>
-    <string name="swipe_between_tabs">"Faites glisser l\'écran vers la droite/gauche"</string>
+    <string name="blacklist_tips">"Par défaut, aFirewall bloque les appels et les messages de la liste noire, ainsi vous avez seulement besoin de mettre le numéro indésirable dans la liste noire si vous voulez le bloquer."</string>
+    <string name="swipe_between_tabs">"Faites glisser l\'écran vers la droite ou vers la gauche"</string>
     <string name="thanks">"Un grand merci aux traducteurs suivants:\n    1) English: Marcin Orlowski\n    2) Español: Osvaldo Letowski\n    3) Deutsch: Alexander Platz-Berg; Christian Schaefer\n    4) Pусский: vinogradov sergey\n    5) Français: Vincent; Dorian VERGE</string>
     <string name="intro_one_title">Accepte les appels et messages selon les règles</string>
     <string name="intro_one_content">aFirewall vous permet de configurer plusieurs règles pour faire face à différents scénarios à des heures différentes, bloque les appels et messages importuns.</string>
