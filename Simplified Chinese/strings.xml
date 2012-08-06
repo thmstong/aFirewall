@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">连云防火墙</string>
+    <string name="q_and_a">"F.A.Q."</string>
+    <string name="recentCalls_deleteAll">"清除通话记录"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%s</xliff:g> 分钟 <xliff:g id="SECONDS">%s</xliff:g> 秒"</string>
+    <string name="recentCalls_editNumberBeforeCall">"在呼叫之前编辑号码"</string>
+    <string name="recentCalls_addToContact">"添加到联系人"</string>
+    <string name="recentCalls_removeFromRecentList">"从通话记录中删除"</string>
+    <string name="empty">"空"</string>
+    <string name="toast_call_detail_error">"查看详情失败"</string>
+    <string name="private_num">私密号码</string>
+    <string name="payphone">收费公用电话</string>
+    <string name="voicemail">语音邮件</string>
+    <string name="clearCallLogConfirmation_title">清楚通话记录</string>
+    <string name="clearCallLogConfirmation">您确定想要清除通话记录么？</string>
+    <string name="type_incoming">"来电"</string>
+    <string name="type_missed">"未接来电"</string>
+    <string name="type_outgoing">"去电"</string>
+    <string name="callAgain">"再次呼叫"</string>
+    <string name="callBack">"回拨"</string>
+    <string name="recentCalls_callNumber">呼叫<xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_viewContact">"查看联系人"</string>
+    <string name="unknown">未知</string>
+    <string name="confirm_delete_all_conversations">"会删除所有会话。"</string>
+    <string name="confirm_delete_conversation">"会删除整个会话。"</string>
+    <string name="confirm_dialog_title">"删除"</string>
+    <string name="menu_compose_new">"撰写"</string>
+    <string name="menu_delete">"删除会话"</string>
+    <string name="menu_delete_all">"删除短信会话"</string> 
+    <string name="menu_view">"查看会话"</string>
+    <string name="refreshing">"正在刷新&#8230;"</string>
+    <string name="retrieve_conversation">"恢复会话"</string>
+    <string name="retrieve_conversation_failure">"拦截的短信记录读取失败"</string>
+    <string name="retrieve_conversation_success">" 条短信被恢复到系统的短信应用程序中"</string>    
+    <string name="delete">删除</string>
+    <string name="max_scenes">12</string>
+    <string name="menu_add_to_contacts">添加联系人</string>
+    <string name="no_subject_view">(无主题)</string>
+    <string name="download">下载</string>
+    <string name="download_later">下载失败，请您稍候继续。</string>
+    <string name="downloading">下载中</string>     
+    <string name="messagelist_sender_self">我</string>
+    <string name="name_colon"><b><xliff:g id="name" example="Me">%s</xliff:g></b>": "</string>       
+    <string name="select_link_title">选择操作</string>
+    <string name="inline_subject">主题：<xliff:g id="subject">%s</xliff:g>>"</string>
+    <string name="sent_on">发生：<xliff:g id="date">%s</xliff:g>"</string>
+    <string name="to_hint">发送给</string>
+    <string name="subject_hint">主题</string>
+    <string name="type_to_compose_text_enter_to_send">输入短信内容</string>
+    <string name="send">发送</string>
+    <string name="message_queued">发送消息失败，当服务可用是将尝试再次发送。</string>
+    <string name="invalid_destination">输入无效</string>
+    <string name="dl_expired_notification">该消息已经过期所以将会被删除。</string>
+    <string name="no_subject">(空主题)</string>
+    <string name="unknown_sender">未知发送者</string>
+    <string name="dl_failure_notification">下载<xliff:g id="subject">%s</xliff:g> 来自 <xliff:g id="from">%s</xliff:g> 的消息失败。</string>
+    <string name="vibrate_title">"振动"</string>
+    <string name="vibrate_summary">"在接到通知时发出振动反馈"</string>
+    <string name="ringtone_title">"通知铃声"</string>
+    <string name="ringtone_summary"></string>       
+    <string name="always">"始终"</string>
+    <string name="never">"一律不"</string>         
+    <string name="only_in_silent">"仅在静音模式下来电振动"</string>
+    <string name="not_in_silent">"仅在非静音模式下来电振动"</string>          
+    <string name="pref_title_sms_delivery_reports">"发送报告"</string>
+    <string name="pref_summary_sms_delivery_reports">"要求每次发送信息后都返回已读回执"</string>           
+    <string name="delivery_toast_body">"%s已接收消息"</string>
+    <string name="undelivered_sms_dialog_body">"无法发送此信息。"</string>            
+    <string name="edit">编辑</string>
+    <string name="remove">从名单中删除</string>
+    <string name="returnCall">"回电话"</string>    
+    <string name="menu_sendTextMessage">"发送短信"</string>    
+	  <string name="labelCFB">"占线时转接"</string>    
+    <string name="menu_done">完成</string>
+    <string name="menu_doNotSave">撤销</string>    
+    <string name="airplane_mode">飞行模式</string>
+    <string name="group_contacts">联系人</string>
+    <string name="day_concat">", "</string>    
+    <string name="trigger_time">从</string>
+    <string name="scene_end_time">到</string>
+    <string name="repeat_week">重复</string>
+    <string name="every_day">每天</string>
+    <string name="label">标签</string>
+    <string name="help">帮助</string>
+    <string name="done">完成</string>
+    <string name="failure">失败</string>
+    <string name="title">"标题"</string>
+    <string name="revert">撤销</string>
+    <string name="settings">设置</string>
+    <string name="time_hour">小时</string>
+    <string name="time_hours">小时</string>
+    <string name="time_minute">分钟</string>
+    <string name="time_minutes">分钟</string>  
+    <!-- ######################################################################## -->
+    
+    
+    
+    
+    
+                
+    <string name="about">关于</string>
+    <string name="add_from_call_log">从通话记录中添加</string>
+    <string name="add_from_contact">从联系人中添加</string>
+    <string name="add_from_sms_log">从消息中添加</string>
+    <string name="add_new_rule">添加新规则</string>
+    <string name="add_number_and_wildcard">添加号码或者前缀通配符</string>
+    <string name="afirewall_disable_summary">监听服务已停止</string>
+    <string name="afirewall_enable_summary">监控服务已启动</string>
+    <string name="afirewall_notification">拦截会话通知</string>
+    <string name="afirewall_password_indication">"如果您忘记了密码，请给我发邮件获取解决办法"</string>
+    <string name="afirewall_safe_login_message">"您可以通过使用SimpleDialer或者系统的Dialer拨打号码打开连云防火墙；如果您忘记了安全号码，请您给我发送邮件获取解决方法</string>
+    <string name="afirewall_setup">连云防火墙监控服务</string>
+    <string name="answer_hold_time">从接受到挂断的时间</string>
+    <string name="answer_hold_time_message">拦截的电话将被接通，在持续50毫秒后自动挂断。如果这个时间不能避免语音邮件，请您修改持续时间</string>
+    <string name="answer_hold_time_summary">修改该时间，更好的避免将拦截的电话转入语音邮件</string>
+    <string name="apply_keywords_blocking_for_contacts_summary_off">关键词拦截将不作用于联系人</string>
+    <string name="apply_keywords_blocking_for_contacts_summary_on">关键词拦截将作用于联系人</string>
+    <string name="black_and_white_indication">请您确保加上了区号</string>
+    <string name="block_unknown_private">无号码电话</string>
+    <string name="blocked_call_notification_disable_summary">当电话被拦截后将不会通知您</string>
+    <string name="blocked_call_notification_enable_summary">通知您有新的拦截电话</string>
+    <string name="blocked_call_notification_settings_summary">定制拦截电话的通知</string>
+    <string name="blocked_call_privacy_mode_summaryoff">一个电话被拦截</string>
+    <string name="blocked_call_privacy_mode_summaryon">允许在通知中显示对方的名字</string>
+    <string name="blocked_call_response_configuration">电话拦截后怎样响应对方</string>
+    <string name="blocked_conversation_settings">拦截会话设置</string>
+    <string name="blocked_sms_notification_disable_summary">消息拦截后将不会通知您</string>
+    <string name="blocked_sms_notification_enable_summary">将会通知您有新的未读的拦截消息</string>
+    <string name="blocked_sms_notification_settings_summary">定制消息拦截通知</string>
+    <string name="blocked_sms_privacy_mode_summaryoff">您有未读的拦截消息</string>
+    <string name="blocked_sms_privacy_mode_summaryon">允许在通知中显示对方的姓名</string>
+    <string name="blocked_sms_response_configuration">短信拦截自动回复设置</string>
+    <string name="blocked_sms_response_content_summary">请输入短信拦截时回复的短信的内容。</string>
+    <string name="blocked_sms_response_enable">拦截短信时将自动回复一条短信给发送者</string>
+    <string name="blocking_record">保存拦截记录</string>
+    <string name="blocking_record_disable_summary">"拦截记录不会保存，不建议您使用，不然无法得知是否有电话或者短信被拦截"</string>
+    <string name="blocking_record_enable_summary">连云防火墙将保存它拦截的短信和电话，已方便您进行检查</string>
+    <string name="call">电话</string>
+    <string name="call_notification">电话通知</string>
+    <string name="call_notification_settings">电话通知设置</string>
+    <string name="call_rejection_record">拦截电话</string>
+
+
+    <string name="default_all_groups">全部</string>
+    <string name="default_rule_label">A防火墙默认规则</string>
+    <string name="delete_scene_confirm">您确定要删除该规则么？</string>
+    <string name="dialing_number">输入拨打的号码</string>
+    <string name="disable_password">取消密码</string>
+    <string name="do_not">"不再提示"</string>
+
+    <string name="empty_input">内容为空</string>
+    <string name="enable_password">激活密码</string>
+    <string name="export">备份</string>
+    <string name="export_to_sd">备份到SD卡</string>
+    <string name="fake_password">假密码</string>
+    <string name="fake_password_description">假密码能更好的保护您的隐私，如果其他人拿到您的手机想打开连云防火墙，您可以告诉它这个密码。当他用这个密码打开时，连云将会打开，但是会隐藏您的所有隐私信息。</string>
+    <string name="file_creation_failure">创建文件失败，请您确保已安装了SD卡，并且有剩余空间。</string>
+    <string name="firewall_password_disabled">防火墙密码未设置</string>
+    <string name="firewall_password_enabled">防火墙密码已设置, 以后每次打开防火墙时将验证您的密码</string>
+    <string name="good_night">B晚安</string>
+    <string name="hangup_mode">挂断模式</string>
+    <string name="happy_weekends">C周末愉快</string>
+    <string name="hit_for_mid_night">温馨提示：请您注意，12AM是指晚上，12PM是指中午</string>
+    <string name="import_data">恢复</string>
+    <string name="import_from_sd">从SD卡导入</string>
+    <string name="in_progress">"正在进行中&#8230;"</string>
+    <string name="input_integer">"输入无效，请输入1~1000的整数（毫秒）"</string>
+    <string name="instruction_for_safe_login">使用提示</string>
+    <string name="instruction_for_safe_login_summary">功能介绍和使用方法</string>
+    <string name="label_hint">"别名"</string>
+    <string name="manual_interview_scene">会谈</string>
+    <string name="manual_meeting_scene">开会</string>
+    <string name="manual_rule_list">手工激活规则列表</string>
+    <string name="manual_rule_list_description">温馨提示：下面规则将只会被手工激活， 而且一次只能激活一个。在激活的规则过期以后，将自动切换到调度规则。</string>
+    <string name="manual_rule_started">正在应用手工规则</string>
+    <string name="manual_sleeping_scene">睡觉</string>
+    <string name="manual_view">手动激活规则列表</string>
+
+
+    <string name="more_functions">更多&#8230;</string>
+    <string name="multiple_blocked_call_content">"电话被拦截"</string>
+    <string name="multiple_blocked_call_title">新的拦截电话</string>
+    <string name="multiple_blocked_message_content">"未读的拦截消息"</string>
+    <string name="multiple_blocked_messages_title">新的拦截消息</string>
+    <string name="multiple_protected_call_content">"未接私密电话"</string>
+    <string name="multiple_protected_call_title">新的私密未接来电</string>
+    <string name="multiple_protected_message_content">"未读的私密消息"</string>
+    <string name="multiple_protected_message_title">新的私密消息</string>
+
+    <string name="nil_user_comments">对不起，请您先填写建议或意见，然后再提交，谢谢！</string>
+    <string name="number_label_hint">"别名是可选的"</string>
+    <string name="outgoing_call">拨出电话</string>
+    <string name="outgoing_call_disabled_summary">给黑名单拨打的电话将会保留在系统的通话记录中</string>
+    <string name="outgoing_call_enabled_summary">黑名单拨出的电话将会从系统的通话记录中移到连云防火墙</string>
+    <string name="outgoing_call_sms">拨出电话和送出消息配置</string>
+    <string name="outgoing_sms">外发消息</string>
+    <string name="outgoing_sms_summaryoff">发送给黑名单的消息将会保留着系统的消息程序中</string>
+    <string name="outgoing_sms_summaryon">将外发给黑名单的消息移动到连云防火墙</string>
+    <string name="please_input_number">请您输入号码</string>
+    <string name="please_select_number">请您选择号码</string>
+    <string name="privacy_mode">隐私模式</string>
+    <string name="protected_call_notification_disable_summary">不通知未接私密来电</string>
+    <string name="protected_call_notification_enable_summary">通知未接的私密来电</string>
+    <string name="protected_call_notification_settings_summary">定制私密未接来电通知</string>
+    <string name="protected_call_privacy_mode_summaryoff">"您有未接的私密来电"</string>
+    <string name="protected_call_privacy_mode_summaryon">允许通知中显示对方的名字</string>
+    <string name="protected_calls">私密通话</string>
+    <string name="protected_conversation_settings">私密会话设置</string>
+    <string name="protected_number_hint">"私密号码"</string>
+    <string name="protected_sms">私密消息</string>
+    <string name="protected_sms_notification_disable_summary">私密消息接收后将不会通知您</string>
+    <string name="protected_sms_notification_enable_summary">私密消息接收时将会通知您</string>
+    <string name="protected_sms_notification_settings_summary">定制私密短信通知</string>
+    <string name="protected_sms_privacy_mode_summaryoff">"您有未读的私密消息"</string>
+    <string name="protected_sms_privacy_mode_summaryon">允许在通知里显示对方的名字和短信内容</string>
+    <string name="qanda_notes">"连云防火墙F.A.Q. (Frequently Asked Question) 被放在http://androidfirewall.appspot.com/. 如果您碰到了问题，请您试着先到那里寻找答案好么？"</string>
+    <string name="regular_view">调度规则列表</string>
+
+    <string name="right_password">密码验证通过！</string>
+    <string name="rule_duration">规则持续时间</string>
+    <string name="safe_login">使用SimpleDialer打开防火墙</string>
+    <string name="save_scene_data">"规则已保存"</string>
+    <string name="scene_can_not_enable">不能激活该规则因为他的触发时间和结束时间一样</string>
+    <string name="scene_conflict">"这条规则不能被激活，因为他和另外一条规则冲突了，这条规则是： "</string>
+    <string name="scene_label_summary">为规则命名，方便查找(例如"工作", "休息").</string>
+    <string name="scene_prompt">提示：规则告诉连云防火墙在您设定的时间内怎么样拦截电话和短信，下面的从0:0~23:59是连云防火墙的默认情景；它将在没有其他可用的用户定义的规则的条件下生效</string>
+    <string name="scheduled_rule_description">连云防火墙选择最合适的规则进行应用</string>
+    <string name="scheduled_rule_list">连云防火墙调度的规则</string>
+    <string name="scheduled_rule_started">正在应用调度规则</string>
+    <string name="select_group">选择群组</string>
+    <string name="send_to_following_people">仅仅回复下面的人</string>
+    <string name="service_enable_notification">状态条通知</string>
+    <string name="service_enable_notification_disable">将不会有图标在状态条通知连云防火墙的监听服务已启动。</string>
+    <string name="service_enable_notification_enable">当连云防火墙监听服务启动后将会有图标显示在状态条。</string>
+    <string name="password">连云防火墙密码</string>
+    <string name="single_blocked_call_content_for_privacy">拦截了新电话</string>
+    <string name="single_blocked_call_title_for_privacy">新的拦截电话</string>
+    <string name="single_blocked_message_content_for_privacy">一个消息被拦截</string>
+    <string name="single_blocked_message_title_for_privacy">新的拦截消息</string>
+    <string name="single_protected_call_content_for_privacy">您有新的未接私密电话</string>
+    <string name="single_protected_call_title_for_privacy">新的私密电话</string>
+    <string name="single_protected_message_content_for_privacy">您有新的未读的私密消息</string>
+    <string name="single_protected_message_title_for_privacy">新的私密消息</string>
+    <string name="sms">短信</string>
+    <string name="sms_block_keywords">关键词拦截</string>
+    <string name="sms_block_keywords_description">拦截包含有下列关键词之一的短信，如果有多个关键词请用半角的#分开</string>
+    <string name="sms_firewall_setup">消息拦截配置</string>
+    <string name="sms_notification">短信通知</string>
+    <string name="sms_notification_settings">短信通知设置</string>
+    <string name="sms_rejection_record">拦截短信</string>
+    <string name="sms_response_content_hint">请您在这里输入短信的内容，如果一个电话被拦截，连云防火墙将根据您的设置，回复该内容给对方</string>
+    <string name="sms_response_content_preference">回复短信内容</string>
+    <string name="sms_response_disable">短信回复已禁用</string>
+    <string name="sms_response_enable">当拦截电话后，将发送一条短信给对方</string>
+    <string name="still_not_setup_keywords">还没有设置关键词</string>
+    <string name="submit_comments_hint">您的建议和意见将帮助我们不断完善连云防火墙，如果您碰到连云的异常请您用Log Collector发送给我们好么？另外欢迎您到http://www.afirewall.net讨论连云防火墙的相关问题；同时您可以方便地在这里提交您的意见和建议，我们一定会尽快处理，欢迎您继续支持连云防火墙。</string>
+    <string name="summary_for_stopping">所有的电话和短信都不会被拦截</string>
+    <string name="switch_to_manual_rule">现在连云防火墙将进入手工规则应用模式，所有的调度规则将会被停止，在手工规则过期后，连云防火墙将重新选择合适的调度规则应用。</string>
+    <string name="test_notification">测试通知</string>
+    <string name="test_notification_summary">测试您定制的通知</string>
+    <string name="time">时间</string>
+    <string name="tips">提示</string>
+
+    <string name="unknown_private_restricted">"在通话记录中显示为'-1', '-2', '-3'"</string>
+    <string name="update_activated_manual_rule">"更新正在应用的规则。"</string>
+    <string name="visit_website">访问F.A.Q.</string>
+    <string name="warning">警告</string>
+    <string name="warning_for_manual_rule_switching">连云防火墙一次只能激活一个规则。现在有另外一个规则在应用，连云防火墙将在应用该规则之前停止已应用的规则。</string>
+     <string name="wildcard_prefix_button">"号码前缀，在列表中将会显示为号码加'*';"</string>
+    <string name="wrong_password">对不起，密码错误！</string>
+    <string name="language">语言</string>
+    <string name="language_summary">设置在此应用中所使用的语言</string>
+    <string name="items">记录</string>
+    <string name="item">记录</string>
+    <string name="protected_call_notification_title_summary">定制私密未接来电通知标题</string>
+    <string name="protected_message_notification_title_summary">定制未读的消息通知标题</string>
+    <string name="protected_notification_default_title">连云防火墙私密会话通知</string>
+    <string name="protected_call_notification_dialog_message">请您更新下面的文本告诉连云防火墙怎么通知私密未接来电</string>
+    <string name="protected_message_notification_dialog_message">请您更新下面内容告诉连云防火墙怎么通知私密消息</string>
+    <string name="protected_notification_content">通知内容</string>
+    <string name="protected_call_notification_content_summary">定制私密未接来电通知的内容</string>
+    <string name="protected_message_notification_content_summary">定制私密短信通知的内容</string>
+    <string name="protected_call_notification_content_dialog_message">请您更新下面的内容，以用于详细描述您的未接的私密来电通知。</string>
+    <string name="protected_message_notification_content_dialog_message">请您更新下面的内容，以用于详细描述您的私密消息通知。</string>
+    <string name="contact_not_loaded">"正在载入联系人列表，请稍候。"</string>
+    <string name="check_all">选择所有</string>
+    <string name="check_none">取消所有</string>
+    <string name="import_old_log">导入以前的通话记录和信息</string>
+    <string name="import_old_logs_message">"您确定需要将私密名单以前的通话记录和信息从系统中移入连云防火墙么？ "</string>
+    <string name="afirewall_stopped">连云防火墙监控服务已被关闭</string>
+	<string name="apply_for_contacts">"适用于联系人"</string> <!-- carlos: to be fixed -->
+    <string name="default_account_name">默认账号</string>
+       	<string name="please_wait">請稍候&#8230;</string>
+    
+
+    <!-- 2.6.5 -->
+    <string name="blocked_call_notification_title_summary">定制拦截来电通知标题</string>
+    <string name="blocked_message_notification_title_summary">定制拦截消息通知标题</string>
+    <string name="blocked_notification_default_title">连云防火墙拦截会话通知</string>
+    <string name="blocked_call_notification_dialog_message">请您更新下面的文本告诉连云防火墙怎么通知拦截来电</string>
+    <string name="blocked_message_notification_dialog_message">请您更新下面内容告诉连云防火墙怎么通知拦截消息</string>
+    <string name="blocked_notification_content">通知内容</string>
+    <string name="blocked_call_notification_content_summary">定制拦截电话通知的内容</string>
+    <string name="blocked_message_notification_content_summary">定制拦截短信通知的内容</string>
+    <string name="blocked_call_notification_content_dialog_message">请您更新下面的内容，以用于详细描述您的拦截电话通知。</string>
+    <string name="blocked_message_notification_content_dialog_message">请您更新下面的内容，以用于详细描述您的私密拦截消息通知。</string>
+   	<string name="test_notification_subject">"测试通知标题"</string>
+    
+
+    <!-- 2.7.0 -->
+    <string name="hangup_ring_time">"振铃时间"</string>
+    <string name="hangup_ring_time_summary">请您设置挂断电话前的振铃时间</string>
+    <string name="hangup_ring_time_desc">"默认情况下，对方会听到5000毫秒的铃声，然后连云防火墙将自动挂断电话。您的手机在这期间将会保持静音状态。"</string>
+    <string name="second">" 秒"</string>
+    <string name="seconds">" 秒"</string>
+    <string name="millisecond">" 毫秒"</string>
+    <string name="milliseconds">" 毫秒"</string>
+
+    <string name="buy_advanced_features">有些功能在免费版中被禁用，点击这里开启他们</string>
+    <string name="billing_not_supported_title">您不能购买应用</string>
+    <string name="billing_not_supported_message">现在电子市场的收费服务不可用；您可以继续使用该软件，不过不能购买其中的高级功能。</string>
+    <string name="cannot_connect_title">不能连接到电子市场</string>
+    <string name="cannot_connect_message">不能连接到电子市场；可能您的电子市场需要升级或者收费服务尚未对您开发。您可以继续使用该软件，不过不能购买其中的高级功能。</string>
+    <string formatted="false" name="help_url">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="learn_more">进一步了解</string>
+    <string name="already_full_version">您正在使用的是付费版，所有功能都已经开启，谢谢您的支持。</string>
+    <!-- 2.8.0 -->
+    <string name="group_list">群组列表</string>
+    <string name="group_non_contacts">非联系人</string>
+    <string name="group_black_list">黑名单</string>
+    <string name="group_white_list">白名单</string>
+    <string name="group_protected_list">私密名单</string>
+    <string name="contacts_type">系统</string>
+    <string name="add_group">添加群组</string>
+    <string name="group_name">群组名称</string>
+    <string name="delete_group_message">您确定需要删除该群组已经该群组下所有的号码么？</string>
+    <string name="defined_by_me">我定义的群组</string>
+    <string name="number_list">号码列表</string>
+    <string name="update_number_information">更新号码信息</string>
+    <string name="blocking_list_setup_desc">选择拦截群组</string>
+    <string name="block_mode">电话拦截或者接受群组</string>
+    <string name="scene_sms_block_mode">信息拦截或者接受群组</string>
+    <string name="can_not_delete">"对不起，您不能删除该群组！"</string>
+    <string name="select_action">请选择将要对下面所选群组进行的操作</string>
+    <string name="action_block">"拦截"</string>
+    <string name="action_accept">接受</string>
+    <string name="accept_all">接受所有</string>
+    <string name="block_all">拦截所有</string>
+    <string name="max_free_version_group_number_reached">对不起，免费版本只能添加3个新群组！</string>
+    <string name="max_group_number_reched">对不起，最多只能添加12个群组！</string>
+
+    <!-- 3.0.7 -->
+    <string name="apply_for_contacts_checkbox">应用于联系人，如果这个群组被接受该选项将会被忽略。</string>
+    <string name="block_type_prompt">拦截类型，如果这个群组被接受该选项将会被忽略。</string>
+    <!-- 3.0.8 -->
+    <string name="clear_the_list_warning">您确定删除该名单的所有号码吗?</string>
+    <!-- 3.1.0 -->
+    <string name="debugging">调试</string>
+    <string name="afirewall_log">调试日志</string>
+    <string name="sanity_test_start">开始基本测试</string>
+    <string name="sanity_test">基本测试</string>
+    <string name="sanity_test_desc">基本测试用来验证连云防火墙是否能在您的手机上正常工作。您需要输入您自己的手机号，在您开启测试后，连云将自动发送一条短信和拨打一个电话给您自己。</string>
+    <string name="test_outgoing_sms">1. 发送短信</string>
+    <string name="test_block_sms">2. 拦截短信</string>
+    <string name="test_block_call">3. 拦截电话</string>
+    <string name="test_not_start">未开始</string>
+    <string name="input_my_own_number">请输入您自己的手机号码</string>
+    <string name="sanity_test_ongoing">基本测试正在进行中</string>
+    <string name="block_sms_sanity_test_started">"已经发送一条短信给您自己，通常很快就应该收到，我们将等待一分钟。"</string>
+    <string name="sms_sanity_test_content">该短信是由连云防火墙测试程序发出，您将在连云防火墙的拦截消息中看到两份同样的短信，一份是发出的，另外一份是接收回来的。 </string>
+    <string name="test_passed">通过</string>
+    <string name="test_failed">失败</string>
+    <string name="submit_sanity_test_log">提交测试日志</string>
+    <string name="test_log_location">测试的日志保存在下面的文件中。\n /sdcard/aFirewall/Log/SanityTestLog.txt</string>
+    <string name="sanity_test_warning">基本测试将会发送一条短信和拨打一个电话给您自己。随着您的套餐不同，他们可能产生不同的费用，您确定继续该测试么？  </string>
+
+    <!-- 3.1.6 -->
+    <string name="blocked_conversation">拦截会话</string>
+    <string name="protected_conversation">私密会话</string>
+    <string name="rules">规则</string>
+    <string name="export_and_import">导入导出</string>
+    <string name="user_comments">问题和建议</string>
+
+    <string name="block_call_and_message">拒接电话和消息</string>
+    <string name="block_call_only">仅拒接电话</string>
+    <string name="block_message_only">仅拒接消息</string>
+
+ <!-- Move from above -->
+
+ <!-- Move from above -->
+
+ <!-- Move from above -->
+    <string name="clear_the_list">清除列表</string>
+    <string name="white_listed_only">白名单</string>
+    <string name="everyone">任何人</string>
+    <string name="forward_to_voicemail">转到语音信箱</string>
+    <string name="forward_to_blank_number">转移到空号码</string>
+    <string name="accept_and_hangup">接收然后挂断</string>
+    <string name="ring_and_hangup">振铃然后挂断</string>
+    <string name="be_silent">静音</string>
+    <string name="hangup_directly">"直接挂断"</string>
+
+ <!-- Move from above -->
+
+
+    <!-- 3.1.9 -->
+    <string name="auto_cancel">自动删除</string>
+    <string name="auto_cancel_summaryon">用户点击通知后马上删除该通知</string>
+    <string name="auto_cancel_summaryoff">通知在用户点击并且连云防火墙打开后才删除</string>
+
+    <!-- 3.1.10 -->
+    <string name="avoid_missed_call_notification">删除未接来电</string>
+    <string name="avoid_missed_call_notification_summaryon">拦截电话后开启系统的通话记录应用程序删除未接来电</string>
+    <string name="avoid_missed_call_notification_summaryoff">我的手机没有这个问题，或者这个问题对我无所谓</string>
+
+    <!-- 3.1.11 -->
+    <string name="hidden_application_icon">隐藏应用图标</string>
+    <string name="hidden_application_icon_summaryon">连云防火墙图标将会在应用程序列表中被删除</string>
+    <string name="hidden_application_icon_summaryoff">您可以直接从应用程序列表中直接打开连云防火墙</string>
+    <string name="description_digits_edittext">拨入号码</string>
+    <string name="simple_dialer">Simple Dialer</string>
+    <string name="simple_dialer_number">SimpleDialer号码</string>
+    <string name="set_simple_dialer_number_first">请首先设置SimpleDialer打开防火墙的号码</string>
+
+    <!-- 3.2.1 -->
+    <string name="tips_for_import_and_export">1. 所有备份的文件将会保存在/sdcard/afirewall/backup目录；\n
+                                              2. 请将导入的文件放在/sdcard/afirewall/backup目录；\n
+                                              3. 当您需要创建导入文件时，请参考导出的文件格式。</string>
+    <string name="no_log">不记录日志</string>
+    <string name="log_to_system_file">记录日志到系统文件</string>
+    <string name="log_to_sdcard_file">记录日志到SD卡文件</string>
+    <string name="contain_character">您输入的号码中包含了字符，您确认它是正确的么？</string>
+
+    <!-- 3.2.5 -->
+    <string name="spam">垃圾</string>
+    <string name="non_contact_notify">"不在您的联系人列表中，请问您需要对该号码采取什么操作呢？"</string>
+
+    <!-- 3.2.6 -->
+    <string name="file_found">"已被发现"</string>
+    <string name="no_available_file">"没有可用的"</string>
+    <string name="attach_afirewall_data">同时附送连云防火墙数据文件（组名单、号码名单、规则列表以及其他设置）</string>
+    <string name="imported_number">"记录被导入"</string>
+    <string name="failed_to_import">无效的XML文件</string>
+    <string name="ask_to_add_to_blacklist">提醒加入黑名单</string>
+    <string name="do_not_ask">不提示</string>
+    <string name="unknown_number">未知号码的操作</string>
+    <string name="new_caller">未知来电者的操作</string>
+    <string name="new_texter">未知短信的操作</string>
+    <string name="tips_for_group_list">        <![CDATA[
+	  	<div style="color:#FFFFFF;">
+	  	<ul>
+	    <li>连云防火墙默认拦截黑名单的电话和短信，因此如果需要拦截某个号码的电话和消息，您只需要把它加入黑名单即可；</li><br/>
+	    <li>长按组名单进行编辑或者删除;</li>
+	    <li>左右滑动可以在标签视图进行切换。</li>
+	    </ul>
+	    </div>
+	  ]]>
+    </string>
+
+    <!-- 3.3.0 -->
+    <string name="notification_icon">通知图标</string>
+    <!-- 3.3.7 -->
+
+    <string name="put_into">加入</string>
+
+    <!-- 3.4.0 -->
+	<string name="backup_log_to_gmail">备份到Gmail</string>
+	<string name="backup_log_to_gmail_summaryon">相关记录将会发送通知给BackupToEmail，由它备份到Gmail。</string>
+	<string name="backup_log_to_gmail_summaryoff">相关记录只会保存在本地。</string>
+	<string name="install_backup_to_email">该功能基于应用 BackupToEmail，而没有发现它安装在您的手机上，您确定现在到电子市场里下载安装么？</string>
+	
+	<!-- 3.4.6 -->
+	<string name="be_silent_and_do_not_move_log">"静音并且不移动通话记录和消息"</string>
+    <string name="block_call_sanity_test_started">电话拦截测试进行中，正在等待测试结果&#8230;</string>
+	<!-- 3.6.0 -->
+	<string name="block_outgoing_call">拦截外拨电话</string>
+	<string name="block_outgoing_call_summaryon">禁止向拦截名单里的号码拨打电话</string>
+	<string name="block_outgoing_call_summaryoff">不对外拨电话进行拦截</string>	
+	<string name="test_block_mms">4. 拦截彩信</string>
+	<string name="mms_sanity_test_subject">连云防火墙彩信基本测试</string>
+	<string name="mms_sanity_test_content">请点击发送送出该彩信，然后返回连云防火墙检查该彩信是否被成功的拦截</string>
+	<string name="block_mms_sanity_test_started">"一条彩信将会被发送给您自己，通常应该很快就会收到，我们将等待两分钟。"</string>
+	<string name="runtime">运行状态</string>
+	<string name="active_rule">活动规则</string>
+	<string name="change_rule">切换到&#8230;</string>
+	<string name="runtime_and_shortcut">运行状态及快捷方式</string>
+	
+	<!-- 3.6.4 -->
+
+	
+	<!-- 3.6.7 -->
+	<string name="blacklist_tips">黑名单是连云防火墙默认的拦截名单</string>
+	<string name="default_block_mode_notes">这是连云防火墙的默认规则，它代表着当没有其它您设置的规则可以适用时连云防火墙怎么拦截电话和短信。</string>
+	<string name="swipe_between_tabs">左右滑动可以在标签视图进行切换</string>
+	
+	<!-- 3.7.1 -->
+	<string name="thanks">"非常感谢下面帮忙翻译连云防火墙的朋友:\n    1) English: Marcin Orlowski\n    2) Español: Osvaldo Letowski\n    3) Deutsch: Alexander Platz-Berg; Christian Schaefer\n    4) Pусский: Brooklyn\n    5) Français: Vincent</string>
+    <string name="intro_one_title">根据规则接受电话和消息</string>
+    <string name="intro_one_content">连云防火墙可以让您设置多个规则，并且进行相应的调度，使您可以在不同的时间接听不同人的来电和消息</string>
+    <string name="intro_two_title">黑名单是连云防火墙默认的拦截名单</string>
+    <string name="intro_two_content">如果您有不想接听的号码，您只需要把它放入黑名单即可</string>
+    <string name="intro_three_title">"私密名单不拦截"</string>
+    <string name="intro_three_content">"连云防火墙将把所有私密名单的通话记录和短信全部移到私密会话中以至于保护您的隐私，您还可以进一步设置密码来保护他们"</string>
+    <string name="intro_four_title">备份日志到Gmail</string>
+    <string name="intro_four_content">这项功能需要您安装连云备份软件</string>
+    <string name="intro_four_title2">隐藏连云防火墙图标</string>
+    <string name="intro_four_content2">当该项功能被激活时，请您使用系统的拨号器或者SimpleDialer拨打您设置的号码打开连云防火墙</string>
+    <string name="intro_five_title">谢谢您的支持</string>
+    <string name="intro_five_content">当您遇到关于连云防火墙的问题，或者对它有其他担心时，请给我发邮件</string>
+    <string name="start_afirewall">开始体验</string>
+    
+    <!-- 3.7.6 -->
+
+
+    <!-- 3.7.3 -->
+    <string name="my_specified_number">我指定的号码</string>
+    <string name="check_status">检查状态</string>
+    <string name="disable_call_forward_when_busy">禁用占线时转移</string>
+    <string name="call_forwarding_desc">您能将占线时转移设置到一个空号码避免语音邮件</string>
+    <string name="not_customized">"对不起，因为呼叫转移的方法因网络运营商不同而不同，暂时我不能提供给您的网络的呼叫转移方法，如果您能帮忙从您的网络运营商那里得到该信息并且和我分享，我将添加到连云防火墙以后的版本中去，谢谢！"</string>
+    <string name="share_the_info">分享该方法</string>
+    <string name="activate_code">激活码</string>
+    <string name="deactivate_code">禁用码</string>
+    <string name="check_status_code">查询码</string>
+    <string name="phone_number">电话号码</string>   
+    <string name="rate_afirewall">给连云防火墙评分</string>    
+
+    <string name="avoid_voicemail">使用呼叫转移功能来避免语音邮件</string>
+    <string name="mmi_solution">方法一：使用MMI码来激活，如果这里没有提供相关信息，请您联系您的运营商客服来获取相关的MMI码 </string>
+    <string name="do_it_in_system_way">方法二：在方法一无效的情况下通过系统的呼叫转移设置来激活忙时转移</string>
+    <string name="go_to_system_call_forwarding">进入呼叫转移设置</string>
+    <string name="tips_for_system_way">请您找出呼叫转移设置来设置遇忙时转移，如果您安装了Google　vocie，请您先点击取消</string>
+    
+    <!-- 3.8.5 -->
+    <string name="block_call_during_a_call">在通话期间拦截电话</string>
+    <string name="block_call_during_a_call_summaryoff">"通话期间请不要拦截电话，否则会将正在进行的通话一起挂断"</string>
+    <string name="block_call_during_a_call_summaryon">通话期间可以拦截电话，因为对我的手机来说不会影响我正在进行的通话</string>
+    
+</resources>
