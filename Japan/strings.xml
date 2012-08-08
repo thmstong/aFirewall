@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!-- Don't need to be translated strings -->
-	<string name="app_name">aFirewall</string>
+	<string name="app_name">aFirewall blocker</string>
 	<string name="q_and_a">"F.A.Q."</string>
 	<!-- Recent Calls List Activity -->
     <string name="recentCalls_deleteAll">"通話履歴を全件消去"</string>
