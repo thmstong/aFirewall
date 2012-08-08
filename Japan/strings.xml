@@ -68,7 +68,7 @@
     <string name="always">"常に使用"</string>
     <string name="never">"使用しない"</string><!-- Move from above -->
     <string name="only_in_silent">"マナーモード時のみ"</string>
-    <string name="not_in_silent">Only when not in Silent mode</string>
+    <string name="not_in_silent">"マナーモードのときのみ"</string>
     <string name="pref_summary_sms_delivery_reports">"送信するメッセージの受取確認を毎回要求する"</string>
     <string name="pref_title_sms_delivery_reports">"受取確認通知"</string>
     <string name="delivery_toast_body">"%sさん宛てのメッセージ"</string>
