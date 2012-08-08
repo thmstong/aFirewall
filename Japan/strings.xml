@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<!-- Don't need to be translated strings -->
-	<string name="app_name">aFirewall blocker</string>
-	<string name="q_and_a">"F.A.Q."</string>
-	<!-- Recent Calls List Activity -->
+    <!-- Don't need to be translated strings -->
+    <string name="app_name">aFirewall blocker</string>
+    <string name="q_and_a">"F.A.Q."</string>
+    <!-- Recent Calls List Activity -->
     <string name="recentCalls_deleteAll">"通話履歴を全件消去"</string>
     <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%1$s</xliff:g>分<xliff:g id="SECONDS">%2$s</xliff:g>秒"</string>
     <string name="recentCalls_editNumberBeforeCall">"発信前に番号を編集"</string>
     <string name="recentCalls_addToContact">"連絡先に追加"</string>
     <string name="recentCalls_removeFromRecentList">"通話履歴から消去"</string>
-   	<!-- recentCalls_empty in recent call activity -->
-   	<string name="empty">"空の"</string>
+    <!-- recentCalls_empty in recent call activity -->
+    <string name="empty">"空の"</string>
     <string name="toast_call_detail_error">"通話要求の詳細が読み込めませんでした。"</string>
     <string name="private_num">"非通知"</string>
     <string name="payphone">"公衆電話発信"</string>
     <string name="voicemail">"ボイスメール"</string>
     <string name="clearCallLogConfirmation_title">"通話履歴を消去"</string>
     <string name="clearCallLogConfirmation">"通話履歴を消去してもよろしいですか？"</string>
-	<!-- Call Detail Activity -->
+    <!-- Call Detail Activity -->
     <string name="type_incoming">"通話着信"</string>
     <string name="type_outgoing">"発信履歴"</string>
     <string name="type_missed">"不在着信"</string>
@@ -27,7 +27,7 @@
     <string name="menu_viewContact">"連絡先詳細"</string>
     <string name="unknown">"通知不可能"</string>
 
-	<!-- SMS -->
+    <!-- SMS -->
     <string name="confirm_delete_conversation">"スレッド全体が削除されます。"</string>
     <string name="confirm_delete_all_conversations">"スレッドはすべて削除されます。"</string>
     <string name="confirm_delete_message">"メッセージを削除します。"</string>
@@ -37,9 +37,7 @@
     <string name="menu_delete_all">"スレッドを削除"</string>
     <string name="menu_compose_new">"作成"</string>
     <string name="refreshing">"更新中..."</string>
-   	<string name="retrieve_conversation">"Retrieve conversation"</string>
-	<string name="retrieve_conversation_success">" messages was retrieved to system messaging application successfully"</string>
-	<string name="retrieve_conversation_failure">"Read SMS blocking table failed."</string>
+    <string name="retrieve_conversation">"検索する"</string>
     <string name="delete">"削除"</string>
     <string name="menu_add_to_contacts">"連絡先に追加"</string>
     <string name="no_subject_view">"(件名なし)"</string>
@@ -84,25 +82,24 @@
     <string name="menu_doNotSave">"キャンセル"</string>
     <string name="airplane_mode">"機内モード"</string>
     <!-- <string name="contactsList" -->
-	<string name="group_contacts">"連絡先"</string>
-	<string name="day_concat">", "</string>
-	<string name="max_scenes">12</string>
-	<!-- edit_event_from_label in calendar -->
-	<string name="trigger_time">"開始"</string>
-	<!-- edit_event_to_label in Calendar -->
-	<string name="scene_end_time">"終了"</string>	
-	<!-- alarm_repeat in deskclock -->
-	<string name="repeat_week">"繰り返し"</string>
-	<string name="every_day">"毎日"</string>
-	<string name="label">"ラベル"</string>
+    <string name="group_contacts">"連絡先"</string>
+    <string name="day_concat">", "</string>
+    <string name="max_scenes">12</string>
+    <!-- edit_event_from_label in calendar -->
+    <string name="trigger_time">"開始"</string>
+    <!-- edit_event_to_label in Calendar -->
+    <string name="scene_end_time">"終了"</string>	
+    <!-- alarm_repeat in deskclock -->
+    <string name="repeat_week">"繰り返し"</string>
+    <string name="every_day">"毎日"</string>
+    <string name="label">"ラベル"</string>
     <string name="help">"ヘルプ"</string>
-	<string name="done">"完了"</string>
+    <string name="done">"完了"</string>
     <string name="failure">"失敗"</string>
     <string name="title">"タイトル"</string>
     <string name="revert">"キャンセル"</string>
-	<string name="settings">"設定"</string>
-	
-	<!-- 3.3.7 -->
+    <string name="settings">"設定"</string>
+
     <!-- array.xml in calendar of package apps -->    
     <string name="time_hour">時間</string>
     <string name="time_hours">時間</string>
