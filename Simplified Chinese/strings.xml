@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">连云防火墙</string>
+    <string name="q_and_a">"F.A.Q."</string>
+    <string name="recentCalls_deleteAll">"清除通话记录"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%s</xliff:g> 分钟 <xliff:g id="SECONDS">%s</xliff:g> 秒"</string>
+    <string name="recentCalls_editNumberBeforeCall">"在呼叫之前编辑号码"</string>
+    <string name="recentCalls_addToContact">"添加到联系人"</string>
+    <string name="recentCalls_removeFromRecentList">"从通话记录中删除"</string>
+    <string name="empty">"空"</string>
+    <string name="toast_call_detail_error">"查看详情失败"</string>
+    <string name="private_num">私密号码</string>
+    <string name="payphone">收费公用电话</string>
+    <string name="voicemail">语音邮件</string>
+    <string name="clearCallLogConfirmation_title">清楚通话记录</string>
+    <string name="clearCallLogConfirmation">您确定想要清除通话记录么？</string>
+    <string name="type_incoming">"来电"</string>
+    <string name="type_missed">"未接来电"</string>
+    <string name="type_outgoing">"去电"</string>
+    <string name="callAgain">"再次呼叫"</string>
+    <string name="callBack">"回拨"</string>
+    <string name="recentCalls_callNumber">呼叫<xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_viewContact">"查看联系人"</string>
+    <string name="unknown">未知</string>
+    <string name="confirm_delete_all_conversations">"会删除所有会话。"</string>
+    <string name="confirm_delete_conversation">"会删除整个会话。"</string>
+    <string name="confirm_dialog_title">"删除"</string>
+    <string name="menu_compose_new">"撰写"</string>
+    <string name="menu_delete">"删除会话"</string>
+    <string name="menu_delete_all">"删除短信会话"</string> 
+    <string name="menu_view">"查看会话"</string>
+    <string name="refreshing">"正在刷新&#8230;"</string>
+    <string name="retrieve_conversation">"恢复会话"</string>  
+    <string name="delete">删除</string>
+    <string name="max_scenes">12</string>
+    <string name="menu_add_to_contacts">添加联系人</string>
+    <string name="no_subject_view">(无主题)</string>
+    <string name="download">下载</string>
+    <string name="download_later">下载失败，请您稍候继续。</string>
+    <string name="downloading">下载中</string>     
+    <string name="messagelist_sender_self">我</string>
+    <string name="name_colon"><b><xliff:g id="name" example="Me">%s</xliff:g></b>": "</string>       
+    <string name="select_link_title">选择操作</string>
+    <string name="inline_subject">主题：<xliff:g id="subject">%s</xliff:g>>"</string>
+    <string name="sent_on">发生：<xliff:g id="date">%s</xliff:g>"</string>
+    <string name="to_hint">发送给</string>
+    <string name="subject_hint">主题</string>
+    <string name="type_to_compose_text_enter_to_send">输入短信内容</string>
+    <string name="send">发送</string>
+    <string name="message_queued">发送消息失败，当服务可用是将尝试再次发送。</string>
+    <string name="invalid_destination">输入无效</string>
+    <string name="dl_expired_notification">该消息已经过期所以将会被删除。</string>
+    <string name="no_subject">(空主题)</string>
+    <string name="unknown_sender">未知发送者</string>
+    <string name="dl_failure_notification">下载<xliff:g id="subject">%s</xliff:g> 来自 <xliff:g id="from">%s</xliff:g> 的消息失败。</string>
+    <string name="vibrate_title">"振动"</string>
+    <string name="vibrate_summary">"在接到通知时发出振动反馈"</string>
+    <string name="ringtone_title">"通知铃声"</string>
+    <string name="ringtone_summary"></string>       
+    <string name="always">"始终"</string>
+    <string name="never">"一律不"</string>         
+    <string name="only_in_silent">"仅在静音模式下来电振动"</string>
+    <string name="not_in_silent">"仅在非静音模式下来电振动"</string>          
+    <string name="pref_title_sms_delivery_reports">"发送报告"</string>
+    <string name="pref_summary_sms_delivery_reports">"要求每次发送信息后都返回已读回执"</string>           
+    <string name="delivery_toast_body">"%s已接收消息"</string>
+    <string name="undelivered_sms_dialog_body">"无法发送此信息。"</string>            
+    <string name="edit">编辑</string>
+    <string name="remove">从名单中删除</string>
+    <string name="returnCall">"回电话"</string>    
+    <string name="menu_sendTextMessage">"发送短信"</string>    
+	  <string name="labelCFB">"占线时转接"</string>    
+    <string name="menu_done">完成</string>
+    <string name="menu_doNotSave">撤销</string>    
+    <string name="airplane_mode">飞行模式</string>
+    <string name="group_contacts">联系人</string>
+    <string name="day_concat">", "</string>    
+    <string name="trigger_time">从</string>
+    <string name="scene_end_time">到</string>
+    <string name="repeat_week">重复</string>
+    <string name="every_day">每天</string>
+    <string name="label">标签</string>
+    <string name="help">帮助</string>
+    <string name="done">完成</string>
+    <string name="failure">失败</string>
+    <string name="title">"标题"</string>
+    <string name="revert">撤销</string>
+    <string name="settings">设置</string>
+    <string name="time_hour">小时</string>
+    <string name="time_hours">小时</string>
+    <string name="time_minute">分钟</string>
+    <string name="time_minutes">分钟</string>  
+    <string name="copy_message_text">"复制短信文本"</string>
+    <string name="message_options">"信息选项"</string>    
+    <string name="confirm_delete_message">"将会删除此信息。"</string>
+    <!-- ######################################################################## -->
                 
     <string name="about">关于</string>
     <string name="add_from_call_log">从通话记录中添加</string>
@@ -207,8 +302,7 @@
     <string name="blocked_message_notification_content_summary">定制拦截短信通知的内容</string>
     <string name="blocked_call_notification_content_dialog_message">请您更新下面的内容，以用于详细描述您的拦截电话通知。</string>
     <string name="blocked_message_notification_content_dialog_message">请您更新下面的内容，以用于详细描述您的私密拦截消息通知。</string>
-   	<string name="test_notification_subject">"测试通知标题"</string>
-    
+   
 
     <!-- 2.7.0 -->
     <string name="hangup_ring_time">"振铃时间"</string>
@@ -407,7 +501,7 @@
     <string name="intro_four_title">备份日志到Gmail</string>
     <string name="intro_four_content">这项功能需要您安装连云备份软件</string>
     <string name="intro_four_title2">隐藏连云防火墙图标</string>
-    <string name="intro_four_content2">当该项功能被激活时，请您使用系统的拨号器或者SimpleDialer拨打您设置的号码打开连云防火墙</string>
+    <string name="intro_four_content2">请您使用系统的拨号器或者SimpleDialer拨打您设置的号码打开连云防火墙</string>
     <string name="intro_five_title">谢谢您的支持</string>
     <string name="intro_five_content">当您遇到关于连云防火墙的问题，或者对它有其他担心时，请给我发邮件</string>
     <string name="start_afirewall">开始体验</string>
