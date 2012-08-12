@@ -25,7 +25,7 @@
    	<string name="recentCalls_editNumberBeforeCall">"Modifier le numéro avant l'appel"</string>
    	<string name="recentCalls_addToContact">"Ajouter aux contacts"</string>
    	<string name="recentCalls_removeFromRecentList">"Retirer de la liste"</string>
-   	<string name="recentCalls_empty">"Vide"</string>
+   	<string name="empty">"Vide"</string>
    	<string name="toast_call_detail_error">"Détail des erreurs d'appel"</string>
     <!-- String used to display calls from private numbers in the call log -->
     <string name="private_num">Numéro privé</string>
@@ -64,8 +64,6 @@
    	<string name="menu_compose_new">"Composer"</string>
    	<string name="refreshing">"Rafraîchir&#8230;"</string>
    	<string name="retrieve_conversation">"Récupérer une conversation"</string>
-	<string name="retrieve_conversation_success">" le messages a été récupéré par le système de messagerie avec succès"</string>
-	<string name="retrieve_conversation_failure">"La lecture des SMS bloqués a échoué."</string>
 	<!-- Delete unlocked checkbox title -->
     <string name="delete">Supprimer</string>
     <!-- Context menu item on a message recipient for adding them to the user's
@@ -133,7 +131,6 @@
 	<string name="max_scenes">12</string>
 	<string name="call">Appels</string>
 	<string name="sms">Messages</string>
-	<string name="block">Bloque</string>
 	<string name="every_day">Tous les jours</string>
 	<string name="day_concat">", "</string>
 	<string name="delete_scene_confirm">Voulez-vous vraiment supprimer cette règle ?</string>
@@ -229,7 +226,6 @@
 	<!-- aFirewall Settings -->
 	<string name="safe_login">Ouvrez aFirewall grâce à SimpleDialer</string>
 	<string name="dialing_number">"Numéro d'appel saisie"</string>
-	<string name="afirewall_safe_login_summary">Ouvrez aFirewall en toute sécurité en composant un numéro spécifique par SimpleDialer</string>
     <string name="afirewall_safe_login_message">"aFirewall vous permet de vous connecter en composant un numéro spécifique dans SimpleDialer, maintenant s'il vous plaît entrer le numéro spécifique. Si vous avez oublié votre numéro, envoyez moi un email. Merci. "</string>
 	<string name="instruction_for_safe_login">Instructions</string>
     <string name="instruction_for_safe_login_summary">Expliquer comment ce dispositif fonctionne et ce que vous devez faire.</string>
@@ -245,7 +241,7 @@
 	<string name="help">Aide</string>
 	<string name="black_and_white_indication">"S'il vous plaît, soyez sûr que le numéro fournit comprend l'indicatif régional le cas échéant"</string>
 	<string name="done">Valider</string>
-	<string name="failed">Annuler</string>
+	<string name="failure">Annuler</string>
 	
 	
 	<!-- 2.4.0 added -->
@@ -268,7 +264,6 @@
     <string name="more_functions">Plus&#8230;</string>
     <string name="block_unknown_private">Appels inconnus et privés</string>
     <string name="unknown_private_restricted">"Afficher en tant que '-1', '-2' or '-3' dans le journal des appels"</string>
-    <string name="black_number_or_wildcard_hint">"Numéro noir ou caractère générique</string>
     <string name="protected_number_hint">"Numéro protégé</string>
     <string name="test_notification">Test de notification</string>
     <string name="test_notification_summary">Testez votre notification personnalisée</string>
@@ -317,22 +312,16 @@
    
 	<!-- Private conversation settings -->
 	<string name="protected_conversation_settings">Paramètres de conversation protégé</string>
-    <!-- License checking status messages -->
-    <string name="check_license">Vérifier la licence</string>   
     <!-- Export and Import -->
     <string name="export">Exporter</string>
    	<string name="about">A propos</string>
    	<string name="import_data">Importer</string>
    	<string name="export_to_sd">Exporter vers la carte SD</string>
    	<string name="import_from_sd">Importer depuis la carte SD</string>
-       <string name="select_all">Sélectionner tout</string>
-   	<string name="unselect_all">Désélectionner tout</string>
-   	<string name="the_list_is_empty">Vide</string>
    	<string name="language">Language</string>
    	<string name="language_summary">"Sélectionnez la langue de l'application"</string>
    	<string name="items">objets</string>
    	<string name="item">objet</string>
-   	<string name="no_record">Vide</string>
     <string name="protected_call_notification_title_summary">Personnaliser la notification des appels protégés manqués</string>
     <string name="protected_message_notification_title_summary">Personnaliser la notification des messages entrants protégés non lus</string>
 	<string name="protected_notification_default_title">"Notification protégé d'aFirewall"</string>
@@ -352,10 +341,7 @@
    	<string name="import_old_log">Importer des anciens journaux</string>
    	<string name="import_old_logs_message">"Etes-vous sûr de vouloir déplacer le journal d'appels des numéros protégés et des messages à partir des applications du système vers aFirewall? "</string>
    	<string name="please_wait">"S'il vous plaît, attendez&#8230;"</string>
-   	
-   	<!-- 2.6.1 -->
-       <string name="test_notification_subject">"Tester la notification de l'objet"</string>
-   	
+   	   	
    	<!-- 2.6.5 -->
 	<string name="blocked_call_notification_title_summary">Personnaliser le contenu de la notification des appels bloqués</string>
 	<string name="blocked_message_notification_title_summary">Personnaliser le contenu des notification par SMS entrants bloqués non lus</string>
@@ -395,7 +381,6 @@
     <string name="cannot_connect_message">"Cette application ne peut pas se connecter au Play Store. Votre version du Play Store est peut être périmé. Vous pouvez continuer à utiliser cette application, mais vous ne serez pas en mesure d'effectuer des achats."</string> 
     <string name="help_url" formatted="false">http://play.google.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
     <string name="learn_more">En savoir plus</string>
-    <string name="restoring_transactions">Restaurer les transactions</string>
 	<string name="already_full_version">Ceci est la version complète payé, toutes fonctionnalités sont activées. Merci pour votre soutien.</string>
 	<!-- 3.0.0 -->
 	<string name="group_list">Liste des groupes</string>     
@@ -408,17 +393,13 @@
 	<string name="add_group">Ajouter un groupe</string>
 	<string name="group_name">Nom du groupe</string>
 	<string name="defined_by_me">Nommé par moi</string>
-	<string name="delete_group">Supprimer</string>
     <string name="delete_group_message">Etes-vous sûr de vouloir supprimer ce groupe et ces numéros ?</string>
 	<string name="number_list">Liste de numéros</string>
-	<string name="add_new_number">Ajouter un nouveau numéro</string>
 	<string name="update_number_information">Mettre à jour les informations du numéro</string>
-	<string name="group_blocking_mode">Listes pour bloquer ou accepter</string>
 	<string name="revert">Annuler</string>
     <string name="blocking_list_setup_desc">Sélectionner listes de blocage.</string>
 	<string name="block_mode">Appel bloquant ou listes acceptées</string>
 	<string name="scene_sms_block_mode">SMS bloquant ou listes acceptées</string>
-	<string name="group_operation">Opération de groupe</string>
 	<string name="can_not_delete">"Désolé, vous ne pouvez pas supprimer ce groupe"</string>
 	<string name="select_action">Mesures à prendre pour suivre les listes vérifiées</string>
 	<string name="action_block">"Bloque"</string>
@@ -483,7 +464,6 @@
     <string name="ring_and_hangup">Sonne et raccroche</string>
     <string name="be_silent">Silencieux</string>
     <string name="airplane_mode">Mode avion</string>
-    <string name="default_mode">"Mode par défaut"</string>
     <string name="hangup_directly">"Raccroche directement"</string>
     
     <string name="always">Toujours</string>
@@ -523,7 +503,6 @@
     
     <!-- 3.2.5 -->
     <string name="spam">Spam</string>
-    <string name="dismiss">Renvoyer</string>
     <string name="non_contact_notify">" n'est pas dans vos contacts, quelle action voulez-vous faire ?"</string>
     
     <!-- 3.2.6 -->
@@ -581,7 +560,6 @@
     <string name="active_rule">Règle active</string>
     <string name="change_rule">Basculer vers &#8230;</string>
     <string name="runtime_and_shortcut">Services en cours et raccourcis</string>
-    <string name="afirewall_started">Les services aFirewall sont démarrés.</string>
    
     <!-- 3.6.4 -->
     <string name="labelCFB">"Transf. si ligne occupée"</string>
@@ -632,5 +610,8 @@
     <string name="block_call_during_a_call_summaryoff">"Ne pas bloquer un appel entrant pendant un appel car il raccrochera l\'appel sortant"</string>
     <string name="block_call_during_a_call_summaryon">"Bloquer un appel indésirable lors d'un appel car il n'aura pas d'impact sur l\'appel en cours"</string>
     <string name="title">"Titre"</string>
+    <string name="copy_message_text">"Copier le texte du message"</string>
+    <string name="message_options">"Options du message"</string>  
+    <string name="confirm_delete_message">"Le message va être supprimé."</string>
     
 </resources>
