@@ -232,7 +232,7 @@
 	
 	<!-- Global variables -->
 	<!-- carlos: 2010.03.17 -->
-	<string name="app_name">aFirewall</string>
+	<string name="app_name">aFirewall </string>
    	<string name="put_into">&quot;Ajouter à &quot;</string>
     <string name="add_from_call_log">Ajouter au journal des appels</string>
     <string name="add_from_sms_log">Ajouter au journal des SMS</string>
@@ -492,10 +492,7 @@
     
     <!-- 3.2.1 -->
     <!-- 3.2.1 -->
-    <string name="tips_for_import_and_export">"1. Tous les fichiers exportés seront enregistré dans /sdcard/afirewall/backup directory.\n
-    2. Tous les fichiers importés doivent également être enregistré dans /sdcard/afirewall/backup directory.\n
-    3. S'il vous plaît, référez vous au format de fichier exporté, si vous voulez importer des numéros provenant de l'extérieur."</string>
-    
+    <string name="tips_for_import_and_export">"1. Tous les fichiers exportés seront enregistré dans /sdcard/afirewall/backup directory.\n2. Tous les fichiers importés doivent également être enregistré dans /sdcard/afirewall/backup directory.\n3. S'il vous plaît, référez vous au format de fichier exporté, si vous voulez importer des numéros provenant de l'extérieur."</string>
     <string name="no_log">Ne pas enregistrer</string>
     <string name="log_to_system_file">Log to system file</string>
     <string name="log_to_sdcard_file">Log to SDCARD file</string>
@@ -520,8 +517,8 @@
 	  <![CDATA[
 	  	<div style="color:#FFFFFF;">
 	  	<ul>
-	    <li>"A défaut, aFirewall bloque les appels et des messages de la \'liste noire\', ainsi vous avez seulement besoin de mettre le numéro indésirable dans la liste noire si vous voulez le bloquer."</li><br/>
-	    <li>"Maintenez l'élément groupe pour modifier son nom ou le supprimer;"</li>
+	    <li>"A défaut, aFirewall bloque les appels et des messages de la \'liste noire\', ainsi vous avez seulement besoin de mettre le numéro indésirable dans la liste noire si vous voulez le bloquer."</li>
+	    <li>"Maintenez l'élément groupe pour modifier son nom ou le supprimer."</li>
 	    <li>"Faites glisser l\'écran vers la droite/gauche."</li>
 	    </ul>
 	    </div>
@@ -567,7 +564,7 @@
     <!-- 3.7.1 -->
     <string name="blacklist_tips">"Par défaut, aFirewall bloque les appels et les messages de la liste noire, ainsi vous avez seulement besoin de mettre le numéro indésirable dans la liste noire si vous voulez le bloquer."</string>
     <string name="swipe_between_tabs">"Faites glisser l\'écran vers la droite ou vers la gauche"</string>
-    <string name="thanks">"Un grand merci aux traducteurs suivants:\n    1) English: Marcin Orlowski\n    2) Español: Osvaldo Letowski\n    3) Deutsch: Alexander Platz-Berg; Christian Schaefer\n    4) Pусский: vinogradov sergey\n    5) Français: Vincent; Dorian VERGE</string>
+    <string name="thanks">"Un grand merci aux traducteurs suivants:\n    1) English: Marcin Orlowski\n    2) Español: Osvaldo Letowski\n    3) Deutsch: Alexander Platz-Berg, Christian Schaefer\n    4) Pусский: vinogradov sergey\n    5) Français: Vincent, Dorian VERGE</string>
     <string name="intro_one_title">Accepte les appels et messages selon les règles</string>
     <string name="intro_one_content">aFirewall vous permet de configurer plusieurs règles pour faire face à différents scénarios à des heures différentes, bloque les appels et messages importuns.</string>
     <string name="intro_two_title">La liste noire est la liste bloquée par défaut</string>
