@@ -234,9 +234,9 @@
 	<!-- carlos: 2010.03.17 -->
 	<string name="app_name">aFirewall </string>
    	<string name="put_into">&quot;Ajouter à &quot;</string>
-    <string name="add_from_call_log">Ajouter au journal des appels</string>
-    <string name="add_from_sms_log">Ajouter au journal des SMS</string>
-	<string name="add_from_contact">Ajouter des contacts</string>
+    <string name="add_from_call_log">Ajouter à partir du journal des appels</string>
+    <string name="add_from_sms_log">Ajouter à partir du journal des SMS</string>
+	<string name="add_from_contact">Ajouter à partir des contacts</string>
 	<string name="do_not">"Ne plus afficher"</string>
 	<string name="help">Aide</string>
 	<string name="black_and_white_indication">"S'il vous plaît, soyez sûr que le numéro fournit comprend l'indicatif régional le cas échéant"</string>
