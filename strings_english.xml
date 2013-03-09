@@ -568,6 +568,14 @@
     <string name="block_call_during_a_call">Block call during a call</string>
     <string name="block_call_during_a_call_summaryoff">"Don\'t block incoming call during a call because it will hangup ongoing call"</string>
     <string name="block_call_during_a_call_summaryon">Block unwanted call during a call as it have no impact to ongoing call for my phone</string>
-    
+    ---Limitations---
+	☆ Following android permissions are only granted to system or signature applications by android system, based on these changes from Google, you maybe need to root your phone and convert aFirewall to system application to fix related issues in your phone although aFirewall tried its best to workaround them.   
+	 1). android.permission.MODIFY_PHONE_STATE: changed from android 2.3 and required by answerCall and cancelMissedCallNotification;
+	 2). android.permission.WRITE_APN_SETTINGS: changed from android 4.0 and required by queryApnSettings to download MMS attachments;
+	 3). android.permission.WRITE_SECURE_SETTINGS: changed from android 4.2 and required by on/off airplane mode;
+	☆ You can use free link2SD(free), apps2ROM(free) to convert aFirewall to system; and I will also release a related application to Google Play to convert aFirewall to system later;
+	***************Disclaimer******************
+	Rooting your device will void its warranty. In addition, performing the rooting procedure incorrectly may have unexpected consequences. Thus root your device at your own risk. I will not be responsible if your device gets damaged or bricked during the process.
+	*********************************************
     
  </resources>
