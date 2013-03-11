@@ -371,7 +371,7 @@
    	<string name="seconds">" secondes"</string> 
    	<string name="millisecond">" milliseconde"</string>
    	<string name="milliseconds">" millisecondes"</string> 
-<!--    	<string name="hangup_mode_settings_desc">"aFirewall supports three kinds of blocking mode, they are "Hangup directly", "Accept and hangup" and "Ring and hangup"; Here is the instruction for "Hangup directly", you can follow this tips to forward blocked call to voice mail and blank number. And you can apply other blocking mode in Rule settings."</string>-->
+<!--    	<string name="hangup_mode_settings_desc">"aFirewall supports three kinds of blocking mode, they are "Hangup directly", "Accept and hangup" and "Ring and hangup". Here is the instruction for "Hangup directly", you can follow this tips to forward blocked call to voice mail and blank number. And you can apply other blocking mode in Rule settings."</string>-->
 	<!-- 2.7.5 -->
 	<string name="buy_advanced_features">Certaines fonctionnalités sont désactivées pour le moment, cliquez ici pour les activer</string>
     <string name="billing_not_supported_title">"Impossible d'effectuer des achats"</string>
@@ -611,4 +611,14 @@
     <string name="message_options">"Options du message"</string>  
     <string name="confirm_delete_message">"Le message va être supprimé."</string>
     
-</resources>
+    ---Limitations---
+☆ Suite aux modifications des permissions ou signatures accordées aux applications du système Android par Google, vous devez être root de votre téléphone et convertir aFirewall en application système pour corriger les problèmes liés à votre téléphone, aFirewall fait de son mieux pour les contourner.
+1). android.permission.MODIFY_PHONE_STATE: changé depuis android 2.3 et nécessaire pour answerCall et cancelMissedCallNotification.
+2). android.permission.WRITE_APN_SETTINGS: changé depuis android 4.0 et nécessaire pour queryApnSettings pour télécharger les pièces jointes MMS.
+3). android.permission.WRITE_SECURE_SETTINGS: changé depuis android 4.2 et nécessaire pour activer/désactiver le mode avion.
+☆ Vous pouvez utiliser link2SD(free), apps2ROM(free) pour convertir aFirewall en application système, et je vais aussi publier une application sur le Google Play pour convertir aFirewall au système plus tard.
+***************Avertissement******************
+Le root de votre appareil annulera la garantie. En outre, la réalisation de la procédure de rootage de façon incorrecte peut avoir des conséquences inattendues. Ainsi le rootage de votre périphérique est à votre propre risque. Je ne serai pas responsable si votre dispositif est endommagé ou briqué pendant le processus.
+*********************************************
+    
+ </resources>
