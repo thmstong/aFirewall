@@ -616,7 +616,7 @@
 1). android.permission.MODIFY_PHONE_STATE: changé depuis android 2.3 et nécessaire pour answerCall et cancelMissedCallNotification.
 2). android.permission.WRITE_APN_SETTINGS: changé depuis android 4.0 et nécessaire pour queryApnSettings pour télécharger les pièces jointes MMS.
 3). android.permission.WRITE_SECURE_SETTINGS: changé depuis android 4.2 et nécessaire pour activer/désactiver le mode avion.
-☆ Vous pouvez utiliser link2SD(free), apps2ROM(free) pour convertir aFirewall en application système, et je vais aussi publier une application sur le Google Play pour convertir aFirewall au système plus tard.
+☆ Vous pouvez utiliser les applications link2SD(gratuit), apps2ROM(gratuit) pour convertir aFirewall en application système, et je vais aussi publier une application sur le Google Play pour convertir aFirewall au système plus tard.
 ***************Avertissement******************
 Le root de votre appareil annulera la garantie. En outre, la réalisation de la procédure de rootage de façon incorrecte peut avoir des conséquences inattendues. Ainsi le rootage de votre périphérique est à votre propre risque. Je ne serai pas responsable si votre dispositif est endommagé ou briqué pendant le processus.
 *********************************************
